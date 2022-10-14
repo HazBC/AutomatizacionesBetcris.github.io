@@ -1,0 +1,26 @@
+/* Scroll To Top Button */
+  
+  #myBtn {
+    display: auto;
+    /* Fix this */
+    position: fixed;
+    bottom: 0px;
+    right: 2px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: transparent;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: transparent;
+  }
+  
+  
+  
+  /* ------------------------------------------------------------------*/
