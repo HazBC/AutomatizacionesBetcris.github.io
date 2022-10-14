@@ -1,6 +1,6 @@
-/* Scroll To Top Button */
-  
-  #myBtn {
+/* BEGIN Scroll go Top Button */
+
+#myBtn {
     display: auto;
     /* Fix this */
     position: fixed;
@@ -15,12 +15,10 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: transparent;
-  }
-  
-  
-  
-  /* ------------------------------------------------------------------*/
+}
+
+/* END Scroll go Top Button */
