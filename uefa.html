@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <style>
         body,
         h1,
@@ -17,9 +21,44 @@
             font-family: "Raleway", sans-serif
         }
     </style>
+
 </head>
 
-<body class="w3" style="background-color:#009FDA">
+<body class="w3" style="background-color:#009FDA" oncontextmenu="return false;" onmousedown="return false"
+    onselectstart="return false">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #002335;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/catarImg/logoBetcris.png" alt="" width="150" height="40">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navbar-brand" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Seleccione el país
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#Alemania">Alemania</a></li>
+                        <li><a class="dropdown-item" href="#Dinamarca">Dinamarca</a></li>
+                        <li><a class="dropdown-item" href="#España">España</a></li>
+                        <li><a class="dropdown-item" href="#Suiza">Suiza</a></li>
+                        <li><a class="dropdown-item" href="#Inglaterra">Inglaterra</a></li>
+                        <li><a class="dropdown-item" href="#Francia">Francia</a></li>
+                        <li><a class="dropdown-item" href="#Bélgica">Bélgica</a></li>
+                        <li><a class="dropdown-item" href="#Croacia">Croacia</a></li>
+                        <li><a class="dropdown-item" href="#Serbia">Serbia</a></li>
+                        <li><a class="dropdown-item" href="#PaísesBajos">Países Bajos</a></li>
+                        <li><a class="dropdown-item" href="#Polonia">Polonia</a></li>
+                        <li><a class="dropdown-item" href="#Portugal">Portugal</a></li>
+                        <li><a class="dropdown-item" href="#Gales">Gales</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- END Navbar -->
 
     <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
@@ -29,10 +68,13 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-row" style="background-color:#009FDA">
             <!-- Blog entry -->
             <div class="w3-card-4 w3-margin w3-white">
-                <img src="/catarImg/UEFA.jpg" alt="Nature" style="width:100%">
+                <img src="/catarImg/UEFA.jpg" alt="" style="width:100%">
                 <hr>
                 <!-- Alemania -->
-                <div class="w3-container">
+                <div id="Alemania" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/ALEMANIAStatus.jpg" alt="Alemania" style="width:100%">
                     <p>● Alemania ha ganado la Copa Mundial de la FIFA cuatro veces; ninguna nación europea lo ha hecho
                         más (Italia también cuatro). Entre todas las naciones, solo Brasil ha levantado el trofeo en más
@@ -57,9 +99,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <div class="w3-container">
                 </div>
+                <br>
                 <hr>
                 <!-- Dinamarca -->
-                <div class="w3-container">
+                <div id="Dinamarca" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/DINAMARCAStatus.jpg" alt="Dinamarca" style="width:100%">
                     <p>● Esta será la sexta participación de Dinamarca en la Copa Mundial de la FIFA. Es la segunda vez
                         que se clasifica para torneos consecutivos, después de 1998/2002.</p>
@@ -80,9 +126,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         Dinamarca. Llevó a los daneses a las semifinales de la Eurocopa 2020, su mejor actuación en un
                         torneo importante desde que ganó la EURO 1992.</p>
                 </div>
+                <br>
                 <hr>
                 <!-- España -->
-                <div class="w3-container">
+                <div id="España" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/ESPANAStatus.jpg" alt="España" style="width:100%">
                     <p>● España se ha clasificado para su 16ª edición de la Copa del Mundo de la FIFA y la 12ª de manera
                         consecutiva, su mayor racha de participaciones seguidas en la historia del torneo.</p>
@@ -106,9 +156,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         registrando la mayor cantidad de goles en el torneo (13, los mismos que los ganadores - Italia).
                     </p>
                 </div>
+                <br>
                 <hr>
                 <!-- Suiza -->
-                <div class="w3-container">
+                <div id="Suiza" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/SUIZAStatus.jpg" alt="Suiza" style="width:100%">
                     <p>● Suiza se ha clasificado para su 12ª Copa Mundial de la FIFA y terminó primera de grupo por
                         delante de la vigente campeona de la Eurocopa, Italia. Es su 5ª presencia consecutiva,
@@ -127,9 +181,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         seleccionador. En sus seis partidos de clasificación tras tomar las riendas de la selección en
                         agosto de 2021, su equipo se mantuvo invicto y encajó solo un gol en total en ellos.</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Inglaterra -->
-                <div class="w3-container">
+                <div id="Inglaterra" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/INGLATERRAStatus.jpg" alt="Inglaterra" style="width:100%">
                     <p>● Inglaterra se ha clasificado para la Copa Mundial de la FIFA por 16ª vez. Es su séptima
                         aparición consecutiva, su racha más larga en la competición.</p>
@@ -148,9 +206,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         técnico de Inglaterra (campeón de la Copa del Mundo en 1966, semifinalista de la Eurocopa en
                         1968).</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Francia -->
-                <div class="w3-container">
+                <div id="Francia" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/FRANCIAStatus.jpg" alt="Francia" style="width:100%">
                     <p>● Francia se ha clasificado para su 16ª Copa Mundial de la FIFA. Es su séptima aparición
                         consecutiva, su racha consecutiva más larga de participaciones.</p>
@@ -169,9 +231,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         victoria en 1998, jugando en seis de los siete encuentros de su equipo, antes de levantar el
                         trofeo como entrenador en 2018.</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Bélgica -->
-                <div class="w3-container">
+                <div id="Bélgica" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/BELGICAStatus.jpg" alt="Bélgica" style="width:100%">
                     <p>● Ningún equipo europeo se ha clasificado para tantos torneos de la Copa Mundial de la FIFA como
                         Bélgica sin ganarlo. Esta es su aparición número 14.</p>
@@ -193,9 +259,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         la Copa Mundial de la FIFA, tras Hector Goetnik (1930 y 1934) y Guy Thys (1982, 1986 y 1990).
                     </p>
                 </div>
+                <br>
                 <hr>
                 <!-- Croacia -->
-                <div class="w3-container">
+                <div id="Croacia" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/CROACIAStatus.jpg" alt="Croacia" style="width:100%">
                     <p>● Esta es la sexta participación de Croacia en la Copa Mundial de la FIFA. En los cinco
                         anteriores, cayó eliminada en la fase de grupos (3 veces) o al menos llegó a semifinales (dos
@@ -215,9 +285,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <p>● Zlatko Dalić es el primer entrenador en dirigir a Croacia a tres grandes torneos
                         internacionales (Mundial 2018, Euro 2020, Mundial 2022).</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Serbia -->
-                <div class="w3-container">
+                <div id="Serbia" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/SERBIAStatus.jpg" alt="Serbia" style="width:100%">
                     <p>● Incluyendo 2022, Serbia se ha clasificado para cuatro de los últimos cinco torneos de la Copa
                         del Mundo, fallando solo en 2014 en este tiempo. Sin embargo, desde el primer torneo de este
@@ -245,9 +319,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         el último jugador de Serbia/Yugoslavia en anotar más de un gol en un partido de la Copa del
                         Mundo, logrando un doblete en los octavos de final contra España en 1990.</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Países Bajos -->
-                <div class="w3-container">
+                <div id="PaísesBajos" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/PAISESBAJOSStatus.jpg" alt="Países Bajos" style="width:100%">
                     <p>● Esta es la 11ª participación de Países Bajos en un Mundial, la primera desde 2014. Ningún
                         equipo ha sido subcampeón tantas veces como ellos sin ganar nunca el trofeo (3; 1974, 1978,
@@ -268,9 +346,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <p>● Esta es la tercera etapa de Louis van Gaal como entrenador de selección holandesa. Los llevó a
                         un tercer puesto en su única participación previa en la Copa Mundial de la FIFA.</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Polonia -->
-                <div class="w3-container">
+                <div id="Polonia" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/POLONIAStatus.jpg" alt="Polonia" style="width:100%">
                     <p>● Polonia se ha clasificado para su novena Copa Mundial de la FIFA y participará en la
                         competición por cuarta vez en las últimas seis ediciones (2022, 2018, 2006, 2002).</p>
@@ -289,9 +371,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         Mundial de la FIFA, siendo Antoni Piechniczek el único que les ha dirigido en dos ediciones
                         diferentes (1982, 1986).</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Portugal -->
-                <div class="w3-container">
+                <div id="Portugal" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/PORTUGALStatus.jpg" alt="Portugal" style="width:100%">
                     <p>● Portugal es uno de los cinco equipos europeos que han aparecido en todas las ediciones de la
                         Copa Mundial de la FIFA desde 2002, junto con Inglaterra, Francia, Alemania y España. Sin
@@ -316,9 +402,13 @@ and is wrapped around the whole page content, except for the footer in this exam
                         anteriores (dos Eurocopas y el Mundial 2018), superó la fase de grupos, aunque fue eliminado en
                         octavos de final en los dos últimos.</p>
                 </div>
+                <br>
                 <hr>
                 <!-- Gales -->
-                <div class="w3-container">
+                <div id="Gales" class="w3-container">
+                    <br>
+                    <br>
+                    <br>
                     <img src="/catarImg/GALESStatus.jpg" alt="Gales" style="width:100%">
                     <p>● Gales se ha clasificado para su segunda Copa Mundial de la FIFA, la primera desde 1958: la
                         brecha de 64 años entre participaciones es la más grande de cualquier nación en la historia del
@@ -345,6 +435,11 @@ and is wrapped around the whole page content, except for the footer in this exam
         <!-- END GRID -->
     </div>
     <!-- END w3-content -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
