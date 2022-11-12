@@ -22,12 +22,6 @@
 
 <body class="w3" oncontextmenu="return false;" onmousedown="return false" onselectstart="return false">
 
-    <!-- ScrollReveal Reset -->
-    <script>
-        ScrollReveal({ reset: true });
-    </script>
-    <!-- END Scroll Reveal Reset -->
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #002335;">
         <div class="container-fluid">
@@ -182,6 +176,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
     <!-- ScrollReveal Transition -->
     <script>
+        ScrollReveal().reveal('.w3-container', { reset: true });
         ScrollReveal().reveal('.w3-container', { duration: 3000 });
     </script>
     <!-- END ScrollReveal Transition -->
