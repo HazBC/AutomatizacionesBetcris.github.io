@@ -1,1112 +1,1586 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Betcris - Catar 2022</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="/catarImg/Cris_FavIcon.jpg">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/catarImg/Cris_FavIcon.jpg" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <!-- END Bootstrap -->
+  </head>
 
-</head>
-
-<body class="w3" oncontextmenu="return false;" onmousedown="return false" onselectstart="return false">
-
+  <body
+    class="w3"
+    oncontextmenu="return false;"
+    onmousedown="return false"
+    onselectstart="return false"
+  >
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #782c4e;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/catarImg/logo-blanco.png" alt="" width="130" height="30">
-            </a>
-        </div>
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-dark"
+      style="background-color: #782c4e"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/catarImg/logo-blanco.png" alt="" width="130" height="30" />
+        </a>
+      </div>
     </nav>
     <!-- END Navbar -->
 
-
-    <!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-    <div class="w3-content" style="max-width:1400px">
-
-        <!-- Accordion -->
-        <div class="accordion" id="accordionExample">
-
-            <!-- GRUPO A -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Grupo A
+    <!-- w3-content defines a container for fixed size centered content, and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width: 1400px">
+      <!-- Accordion -->
+      <div class="accordion" id="accordionExample">
+        <!-- GRUPO A -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Grupo A
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="sub-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Catar - Senegal
                     </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample">
+                  </h2>
+                  <div
+                    id="sub-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub-headingOne"
+                    data-bs-parent="#collapseOne"
+                  >
                     <div class="accordion-body">
-
-                        <div class="accordion" id="sub-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        Catar - Senegal
-                                    </button>
-                                </h2>
-                                <div id="sub-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub-headingOne" data-bs-parent="#collapseOne">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Qatar - Senegal.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/Qatar - Senegal 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Este será el primer enfrentamiento de cualquier tipo entre Qatar y Senegal,
-                                            y será también la primera vez que Senegal se enfrente a la nación anfitriona
-                                            en un partido de la Copa del Mundo.
-                                        </li>
-                                        <br>
-                                        <li>El único encuentro anterior de Senegal con un equipo de la AFC en la Copa
-                                            Mundial de la FIFA se produjo en la pasada edición en Rusia, cuando los
-                                            Lions vieron cómo les igualaban dos veces su ventaja para empatar finalmente
-                                            2-2 con Japón.
-                                        </li>
-                                        <br>
-                                        <li>Las naciones asiáticas ganaron dos de sus tres partidos de la Copa del Mundo
-                                            contra selecciones africanas en la Copa del Mundo de 2018 (1E), tras haber
-                                            perdido dos de sus tres partidos de este tipo en la edición de 2014 (1E).
-                                        </li>
-                                        <br>
-                                        <li>Contra Ecuador, Qatar se convirtió en el primer país anfitrión en perder su
-                                            primer encuentro en esa edición de la Copa del Mundo. Solo cuatro naciones
-                                            anfitrionas han perdido partidos consecutives en el torneo – España en 1982,
-                                            Estados Unidos en 1994, República de Corea en 2002 y Brasil en 2014.
-                                        </li>
-                                        <br>
-                                        <li>Qatar no realizó ni un solo remate a portería en su primer partido contra
-                                            Ecuador, la primera nación anfitriona que no lo consigue en un partido de la
-                                            Copa del Mundo desde Estados Unidos contra Brasil en los octavos de final en
-                                            1994.
-                                        </li>
-                                        <br>
-                                        <li>Senegal ha perdido sus dos últimos partidos de la Copa del Mundo, tras haber
-                                            perdido solo uno de los siete anteriores en la competición (3V 3E). Esas
-                                            tres derrotas son los únicos tres encuentros en los que no ha marcado en el
-                                            torneo.
-                                        </li>
-                                        <br>
-                                        <li>Desde que dejó su portería a cero en su primer encuentro en una Copa del
-                                            Mundo contra Francia en 2002, Senegal ha encajado en cada uno de sus últimos
-                                            ocho partidos en la competición.
-                                        </li>
-                                        <br>
-                                        <li>Qatar no realizó ningún remate a portería contra Ecuador en la 1ª jornada:
-                                            desde 1966, el único equipo que no ha logrado rematar a portería en partidos
-                                            consecutivos de la Copa del Mundo es Estados Unidos, lo hizo contra
-                                            República Checa e Italia en la edición de 2006.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub-collapseTwo">
-                                        Países Bajos - Ecuador
-                                    </button>
-                                </h2>
-                                <div id="sub-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub-headingTwo" data-bs-parent="#collapseOne">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Paises Bajos - Ecuador.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/Paises Bajos - Ecuador 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Este es el tercer enfrentamiento entre Países Bajos y Ecuador, dos
-                                            anteriores fueron amistosos, en marzo de 2006 (victoria por 1-0 de Países
-                                            Bajos) y mayo de 2014 (empate 1-1).
-                                        </li>
-                                        <br>
-                                        <li>Países Bajos solo ha perdido dos de sus 14 partidos de la Copa Mundial de la
-                                            FIFA contra rivales sudamericanos (8V 4E), cayendo en la final de 1978
-                                            contra Argentina y en el encuentro de cuartos de final con Brasil en 1994.
-                                        </li>
-                                        <br>
-                                        <li>Ecuador ha ganado solo dos de sus siete partidos en la Copa del Mundo ante
-                                            rivales europeos (1E 4D), venciendo a Croacia en 2002 y Polonia en 2006.
-                                        </li>
-                                        <br>
-                                        <li>Ecuador ha dejado su portería a cero en cada uno de sus últimos siete
-                                            partidos en todas las competiciones (3V 4E), siendo el argentino Julián
-                                            Álvarez el último jugador en marcar contra ellos en marzo.
-                                        </li>
-                                        <br>
-                                        <li>Países Bajos ha mantenido la portería a cero en cada uno de sus últimos
-                                            cuatro partidos de la Copa del Mundo, su racha más larga en la competición.
-                                            La última nación en lograrlo en cinco seguidos fue Suiza, entre 2006 y 2010.
-                                        </li>
-                                        <br>
-                                        <li>Países Bajos está invicta en sus últimos 14 partidos de la fase de grupos en
-                                            la Copa del Mundo; solo Alemania (16 entre 1990 y 2010) y Brasil* han tenido
-                                            rachas invictas más largas en el torneo. *Brasil está invicto en 15 partidos
-                                            de la fase de grupos antes de este torneo, y podría tener 16 cuando Países
-                                            Bajos vuelva a jugar.
-                                        </li>
-                                        <br>
-                                        <li>Ecuador busca lograr victorias consecutivas en partidos de una misma edición
-                                            de la Copa del Mundo por segunda vez, antes lo logró ganando sus primeros
-                                            dos Encuentros en 2006 para clasificarse a la rondas eliminatorias.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      <img
+                        src="/catarImg/jornada2/Qatar - Senegal.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Qatar - Senegal 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este será el primer enfrentamiento de cualquier tipo
+                        entre Qatar y Senegal, y será también la primera vez que
+                        Senegal se enfrente a la nación anfitriona en un partido
+                        de la Copa del Mundo.
+                      </li>
+                      <br />
+                      <li>
+                        El único encuentro anterior de Senegal con un equipo de
+                        la AFC en la Copa Mundial de la FIFA se produjo en la
+                        pasada edición en Rusia, cuando los Lions vieron cómo
+                        les igualaban dos veces su ventaja para empatar
+                        finalmente 2-2 con Japón.
+                      </li>
+                      <br />
+                      <li>
+                        Las naciones asiáticas ganaron dos de sus tres partidos
+                        de la Copa del Mundo contra selecciones africanas en la
+                        Copa del Mundo de 2018 (1E), tras haber perdido dos de
+                        sus tres partidos de este tipo en la edición de 2014
+                        (1E).
+                      </li>
+                      <br />
+                      <li>
+                        Contra Ecuador, Qatar se convirtió en el primer país
+                        anfitrión en perder su primer encuentro en esa edición
+                        de la Copa del Mundo. Solo cuatro naciones anfitrionas
+                        han perdido partidos consecutives en el torneo – España
+                        en 1982, Estados Unidos en 1994, República de Corea en
+                        2002 y Brasil en 2014.
+                      </li>
+                      <br />
+                      <li>
+                        Qatar no realizó ni un solo remate a portería en su
+                        primer partido contra Ecuador, la primera nación
+                        anfitriona que no lo consigue en un partido de la Copa
+                        del Mundo desde Estados Unidos contra Brasil en los
+                        octavos de final en 1994.
+                      </li>
+                      <br />
+                      <li>
+                        Senegal ha perdido sus dos últimos partidos de la Copa
+                        del Mundo, tras haber perdido solo uno de los siete
+                        anteriores en la competición (3V 3E). Esas tres derrotas
+                        son los únicos tres encuentros en los que no ha marcado
+                        en el torneo.
+                      </li>
+                      <br />
+                      <li>
+                        Desde que dejó su portería a cero en su primer encuentro
+                        en una Copa del Mundo contra Francia en 2002, Senegal ha
+                        encajado en cada uno de sus últimos ocho partidos en la
+                        competición.
+                      </li>
+                      <br />
+                      <li>
+                        Qatar no realizó ningún remate a portería contra Ecuador
+                        en la 1ª jornada: desde 1966, el único equipo que no ha
+                        logrado rematar a portería en partidos consecutivos de
+                        la Copa del Mundo es Estados Unidos, lo hizo contra
+                        República Checa e Italia en la edición de 2006.
+                      </li>
                     </div>
+                  </div>
                 </div>
-            </div>
-            <!-- END GRUPO A -->
-
-            <!-- GRUPO B -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        Grupo B
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub-collapseTwo"
+                    >
+                      Países Bajos - Ecuador
                     </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
+                  </h2>
+                  <div
+                    id="sub-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub-headingTwo"
+                    data-bs-parent="#collapseOne"
+                  >
                     <div class="accordion-body">
-
-                        <div class="accordion" id="sub2-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub2-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub2-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseTwo">
-                                        Estados Unidos - Inglaterra
-                                    </button>
-                                </h2>
-                                <div id="sub2-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub2-headingOne" data-bs-parent="#sub2-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/EEUU - Inglaterra.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/EEUU - Inglaterra 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Este es el tercer enfrentamiento entre Inglaterra y Estados Unidos en la
-                                            Copa del Mundo, con Estados Unidos habiendo ganado por 1-0 en 1950 y tras un
-                                            empate a uno en 2010.
-                                        </li>
-                                        <br>
-                                        <li>En todas las competiciones, Inglaterra ha ganado ocho de sus 11 encuentros
-                                            ante Estados Unidos (1E 2D). Su última derrota ante ellos fue en junio de
-                                            1993 (0-2), ganando cuatro y empatando uno desde entonces.
-                                        </li>
-                                        <br>
-                                        <li>Inglaterra ganó por 3-0 la última vez que enfrentó a Estados Unidos, en un
-                                            amistoso en noviembre de 2018. Trent Alexander-Arnold y Callum Wilson
-                                            anotaron sus únicos goles con los Three Lions en este encuentro.
-                                        </li>
-                                        <br>
-                                        <li>Estados Unidos no ha dejado su portería a cero en ninguno de sus últimos 18
-                                            partidos de la Copa del Mundo ante rivales europeos (32 goles encajados),
-                                            desde una victoria por 1-0 sobre Inglaterra en 1950.
-                                        </li>
-                                        <br>
-                                        <li>Tras ganar por 6-2 a Irán en la primera jornada, Inglaterra busca ganar sus
-                                            primeros dos partidos en una edición de la Copa del Mundo por cuarta vez,
-                                            tras conseguirlo en 1982, 2006 y 2018. Su segundo encuentro en 2018 fue una
-                                            victoria por 6-1 sobre Panamá.
-                                        </li>
-                                        <br>
-                                        <li>Inglaterra completó 716 pases en su victoria por 6-2 sobre Irán en la
-                                            primera jornada, récord para ellos en la Copa del Mundo desde 1966. John
-                                            Stones fue responsable de 116 de esos pases con éxito (16%), también mayor
-                                            registro para un jugador inglés en la competición desde 1966.
-                                        </li>
-                                        <br>
-                                        <li>Estados Unidos ha disputado más partidos en la Copa del Mundo sin haber
-                                            empatado sin goles que cualquier otra selección (34), mientras que
-                                            Inglaterra es la que más veces ha empatado 0-0 (11).
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub2-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub2-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub2-collapseTwo">
-                                        Gales - Irán
-                                    </button>
-                                </h2>
-                                <div id="sub2-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub2-headingTwo" data-bs-parent="#sub2-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Gales - Iran.png" alt="Catar" style="width:100%">
-                                        <img src="/catarImg/jornada2/Gales - Iran 2.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Este es apenas el segundo enfrentamiento entre Gales e Irán, con los Red
-                                            Dragons venciendo en el primero de ellos en abril de 1978 – Phil Dwyer anotó
-                                            el único gol del partido.
-                                        </li>
-                                        <br>
-                                        <li>Gales ha enfrentado a rivales asiáticos en siete ocasiones en su historia y
-                                            ha encajado solo un gol en estos duelos, dejando su portería imbatida en
-                                            seis oportunidades (5V 2E). Su antecedente más reciente fue una victoria por
-                                            6-0 ante China en marzo de 2018.
-                                        </li>
-                                        <br>
-                                        <li>Irán nunca ha derrotado a un rival europeo en la Copa del Mundo tras nueve
-                                            enfrentamientos (2E 7D), encajando 20 goles en total en esos encuentros,
-                                            siendo seis de ellos en la primera jornada de esta edición ante Inglaterra
-                                            (derrota 6-2).
-                                        </li>
-                                        <br>
-                                        <li>Cuatro de los seis partidos de Gales en la Copa del Mundo han acabado
-                                            empatados (67%), ningún equipo tiene un mayor ratio de empates en la
-                                            historia de la competición.
-                                        </li>
-                                        <br>
-                                        <li>Irán cayó por 6-2 ante Inglaterra en la primera jornada, siendo la cuarta
-                                            vez en sus seis participaciones que pierden su partido estreno en la Copa
-                                            del Mundo. Solo en una ocasión previa cayó en sus dos primeros partidos en
-                                            una edición del torneo, en 2006.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Irán ha marcado nueve goles en 15 partidos de la Copa Mundial de la FIFA;
-                                            con un 0,6, es el ratio de goles por partido más bajo de todos los países
-                                            que han disputado más de 10 partidos en la competición. Ha marcado más de un
-                                            gol en solo uno de sus 15 encuentros, en la victoria por 2-1 sobre Estados
-                                            Unidos en 1998.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      <img
+                        src="/catarImg/jornada2/Paises Bajos - Ecuador.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Paises Bajos - Ecuador 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es el tercer enfrentamiento entre Países Bajos y
+                        Ecuador, dos anteriores fueron amistosos, en marzo de
+                        2006 (victoria por 1-0 de Países Bajos) y mayo de 2014
+                        (empate 1-1).
+                      </li>
+                      <br />
+                      <li>
+                        Países Bajos solo ha perdido dos de sus 14 partidos de
+                        la Copa Mundial de la FIFA contra rivales sudamericanos
+                        (8V 4E), cayendo en la final de 1978 contra Argentina y
+                        en el encuentro de cuartos de final con Brasil en 1994.
+                      </li>
+                      <br />
+                      <li>
+                        Ecuador ha ganado solo dos de sus siete partidos en la
+                        Copa del Mundo ante rivales europeos (1E 4D), venciendo
+                        a Croacia en 2002 y Polonia en 2006.
+                      </li>
+                      <br />
+                      <li>
+                        Ecuador ha dejado su portería a cero en cada uno de sus
+                        últimos siete partidos en todas las competiciones (3V
+                        4E), siendo el argentino Julián Álvarez el último
+                        jugador en marcar contra ellos en marzo.
+                      </li>
+                      <br />
+                      <li>
+                        Países Bajos ha mantenido la portería a cero en cada uno
+                        de sus últimos cuatro partidos de la Copa del Mundo, su
+                        racha más larga en la competición. La última nación en
+                        lograrlo en cinco seguidos fue Suiza, entre 2006 y 2010.
+                      </li>
+                      <br />
+                      <li>
+                        Países Bajos está invicta en sus últimos 14 partidos de
+                        la fase de grupos en la Copa del Mundo; solo Alemania
+                        (16 entre 1990 y 2010) y Brasil* han tenido rachas
+                        invictas más largas en el torneo. *Brasil está invicto
+                        en 15 partidos de la fase de grupos antes de este
+                        torneo, y podría tener 16 cuando Países Bajos vuelva a
+                        jugar.
+                      </li>
+                      <br />
+                      <li>
+                        Ecuador busca lograr victorias consecutivas en partidos
+                        de una misma edición de la Copa del Mundo por segunda
+                        vez, antes lo logró ganando sus primeros dos Encuentros
+                        en 2006 para clasificarse a la rondas eliminatorias.
+                      </li>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- END GRUPO B -->
-
-            <!-- GRUPO C -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                        Grupo C
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                        <div class="accordion" id="sub3-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub2-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub3-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseThree">
-                                        Argentina – México
-                                    </button>
-                                </h2>
-                                <div id="sub3-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub3-headingOne" data-bs-parent="#sub3-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Argentina - Mexico.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/Argentina - Mexico 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Argentina está invicta en sus últimos 10 encuentros ante México en todas las
-                                            competiciones (7V 3E) desde la derrota por 1-0 en la Copa América 2004.
-                                        </li>
-                                        <br>
-                                        <li>México ha perdido sus tres partidos en la Copa Mundial de la FIFA contra
-                                            Argentina, perdiendo 6-3 en 1930, 2-1 en 2006 y 3-1 en 2010. Solo Austria (4
-                                            contra Italia) y Nigeria (5 contra Argentina) se han enfrentado más veces a
-                                            su rival en la competición perdiendo todas ellas.
-                                        </li>
-                                        <br>
-                                        <li>La derrota de Argentina contra Arabia Saudita en la 1ª jornada puso fin a
-                                            una racha de 13 victorias consecutivas en la Copa del Mundo contra naciones
-                                            no europeas, desde que perdió ante Camerún en 1990. Nunca antes había
-                                            perdido partidos consecutivos en el Mundial contra equipos no europeos.
-                                        </li>
-                                        <br>
-                                        <li>Argentina ha perdido cuatro de sus últimos seis partidos en la Copa del
-                                            Mundo (1V 1E), tantos como en sus 25 anteriores en la competición (16V 5E).
-                                            Perdieron sus últimos dos encuentros en el torneo, y solo han perdido tres
-                                            seguidos una vez antes (entre 1930 y 1958).
-                                        </li>
-                                        <br>
-                                        <li>Tras su derrota por 2-1 contra Arabia Saudita en la 1ª jornada, Argentina
-                                            busca evitar perder sus dos primeros partidos en una edición de la Copa del
-                                            Mundo por primera vez en su historia.
-                                        </li>
-                                        <br>
-                                        <li>México no ha marcado en sus últimos tres partidos en la Copa del Mundo;
-                                            nunca se han quedado sin anotar en cuatro encuentros consecutivos en el
-                                            torneo, siendo este su partido número 59 en las finales.
-                                        </li>
-                                        <br>
-                                        <li>Tras empatar su primer partido en la Copa del Mundo 2022, 0-0 contra
-                                            Polonia, México podría no ganar ninguno de sus dos primeros partidos de una
-                                            edición del torneo por primera vez desde 1978, cuando perdió los tres
-                                            encuentros de su grupo.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub3-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub3-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub3-collapseTwo">
-                                        Polonia – Arabia Saudita
-                                    </button>
-                                </h2>
-                                <div id="sub3-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub3-headingTwo" data-bs-parent="#sub3-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Polonia - Arabia Saudita.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/Polonia - Arabia Saudita 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Éste es el primer encuentro entre Polonia y Arabia Saudita desde marzo de
-                                            2006 en un amistoso, cuando Polonia ganó 2-1 gracias a un doblete de Lukasz
-                                            Sosin.
-                                        </li>
-                                        <br>
-                                        <li>Éste es solo el tercer partido de la Copa Mundial de la FIFA de Polonia
-                                            contra una nación asiática, perdió 2-0 ante la República de Corea en 2002 y
-                                            venció a Japón 1-0 en 2018.
-                                        </li>
-                                        <br>
-                                        <li>Arabia Saudita ha perdido nueve de sus 10 partidos en la Copa del Mundo
-                                            contra naciones europeas, con la excepción de una victoria por 1-0 sobre
-                                            Bélgica en 1994. Ha perdido cada uno de sus últimos ocho partidos de este
-                                            tipo, sin marcar un solo gol en los últimos siete.
-                                        </li>
-                                        <br>
-                                        <li>Polonia ha dejado su portería a cero en sus dos últimos partidos en la Copa
-                                            del Mundo; solo de 1974 a 1978 registró tres seguidos sin recibir gol en las
-                                            finales (racha de tres).
-                                        </li>
-                                        <br>
-                                        <li>Polonia intentó seis remates contra México en la 1ª jornada, su cifra más
-                                            baja en un solo partido de la Copa del Mundo desde que Opta tiene estos
-                                            datos (desde 1966), y su registro anterior más bajo era de ocho remates
-                                            contra Alemania en 2006.
-                                        </li>
-                                        <br>
-                                        <li>Arabia Saudita marcó con sus dos remates a portería contra Argentina en la
-                                            1ª jornada – ha anotado al menos dos goles en encuentros consecutivos por
-                                            primera vez en la Copa del Mundo, pero nunca ha marcado tres goles en un
-                                            mismo partido en la competición.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END GRUPO C -->
-
-            <!-- GRUPO D -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                        Grupo D
-                    </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                        <div class="accordion" id="sub4-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub4-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub4-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseFour">
-                                        Francia – Dinamarca
-                                    </button>
-                                </h2>
-                                <div id="sub4-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub4-headingOne" data-bs-parent="#sub4-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Francia - Dinamarca.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/Francia - Dinamarca 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Este será el cuarto encuentro entre Francia y Dinamarca en la Copa Mundial
-                                            de la FIFA, todos en la fase de grupos de la competición. Francia ganó el
-                                            torneo en dos de las ocasiones anteriores en las que se enfrentó a Dinamarca
-                                            (1998 y 2018), y la otra llegó como campeona vigente en 2002.
-                                        </li>
-                                        <br>
-                                        <li>Dinamarca ha ganado sus dos últimos encuentros con Francia en todas las
-                                            competiciones, ambos en la UEFA Nations League en 2022. Nunca antes ha
-                                            ganado tres seguidos contra ellos, y ningún equipo ha derrotado a Francia
-                                            tres veces en el mismo año natural.
-                                        </li>
-                                        <br>
-                                        <li>Esta es la tercera vez que Dinamarca se enfrenta a los vigentes campeones
-                                            del mundo en la Copa Mundial de la FIFA – perdió 3-2 ante Brasil en los
-                                            cuartos de final de 1998, antes de vencer a Francia 2-0 en la fase de grupos
-                                            de 2002.
-                                        </li>
-                                        <br>
-                                        <li>Francia ha ganado cada uno de sus últimos cinco partidos en la Copa del
-                                            Mundo; nunca ha ganado seis partidos seguidos en las finales, y la última
-                                            nación en hacerlo fue España en 2010.
-                                        </li>
-                                        <br>
-                                        <li>Cada uno de los últimos cuatro partidos de Dinamarca en la Copa del Mundo ha
-                                            terminado en empate - solo Bélgica ha cosechado cinco empates consecutivos
-                                            en el torneo, entre 1998 y 2002.
-                                        </li>
-                                        <br>
-                                        <li>Dinamarca ha dejado su portería a cero en tres de sus últimos cinco partidos
-                                            en la Copa del Mundo, solo una vez menos que en sus primeros 16 encuentros
-                                            en la competición (cuatro). Sin embargo, tampoco ha marcado en dos de sus
-                                            últimos tres en la Copa del Mundo, tantas veces como en sus primeros 18.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub4-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub4-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub4-collapseTwo">
-                                        Túnez - Australia
-                                    </button>
-                                </h2>
-                                <div id="sub4-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub4-headingTwo" data-bs-parent="#sub4-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/jornada2/Tunez - Australia.png" alt="Catar"
-                                            style="width:100%">
-                                        <img src="/catarImg/jornada2/Tunez - Australia 2.png" alt="Catar"
-                                            style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>Este es solo el tercer encuentro entre Túnez y Australia en todas las
-                                            competiciones - Australia ganó 3-0 en un amistoso en octubre de 1997, antes
-                                            de que Túnez ganara 2-0 en la Copa Confederaciones de 2005.
-                                        </li>
-                                        <br>
-                                        <li>Australia se enfrenta a un rival africano en la Copa del Mundo de la FIFA
-                                            por segunda vez (18º partido en total) - en el otro empató 1-1 con Ghana en
-                                            2010.
-                                        </li>
-                                        <br>
-                                        <li>Contra Dinamarca en el último encuentro, Túnez mantuvo por segunda vez su
-                                            portería a cero en sus 16 partidos en la Copa del Mundo – las dos veces fue
-                                            en empates sin goles (también vs Alemania en 1978).
-                                        </li>
-                                        <br>
-                                        <li>Australia ha perdido seis de sus últimos siete partidos en la Copa del Mundo
-                                            (1E), encajando 18 goles en este período. Podría perder sus dos primeros
-                                            partidos de una edición mundialista por tercera vez, también lo hicieron en
-                                            1974 y 2014.
-                                        </li>
-                                        <br>
-                                        <li>Túnez ha evitado la derrota en partidos consecutivos de la Copa del Mundo
-                                            por primera vez (1V 1E). Sin embargo, ha perdido cuatro de sus cinco
-                                            partidos de la fase de grupos jugados en la 2ª jornada, con la excepción de
-                                            un empate 1-1 con Bélgica en 2002.
-                                        </li>
-                                        <br>
-                                        <li>Australia ha dejado solo una vez su portería a cero en 17 partidos de la
-                                            Copa del Mundo - ningún equipo que haya disputado 10 o más partidos en el
-                                            torneo tiene un porcentaje más bajo (6%, igualado con Arabia Saudita).
-                                        </li>
-                                        <br>
-                                        <li>Túnez realizó 13 remates contra Dinamarca en su primer partido de esta
-                                            edición, más del doble de los que hizo contra Inglaterra en la 1ª jornada en
-                                            la Copa del Mundo de 2018 (6). Sin embargo, solo uno de sus 13 intentos fue
-                                            a portería.
-                                        </li>
-                                        <br>
-                                        <li>Contra Francia en la 1ª jornada, Australia intentó solo cuatro remates, la
-                                            cifra más baja de su historia en un partido de la Copa del Mundo, igualando
-                                            los cuatro contra España en 2014
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END GRUPO D -->
-
-            <!-- GRUPO E -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                        Grupo E
-                    </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                        <img src="/catarImg/GrupoE.png" alt="Catar" style="width:100%">
-
-                        <div class="accordion" id="sub5-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub5-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub5-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseFive">
-                                        España - Costa Rica
-                                    </button>
-                                </h2>
-                                <div id="sub5-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub5-headingOne" data-bs-parent="#sub5-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/España - Costa Rica.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Este es el primer enfrentamiento entre España y Costa Rica en la Copa
-                                            Mundial de la FIFA. En sus tres partidos, todos ellos amistosos, España está
-                                            invicta contra el equipo centroamericano (2V 1E).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            España se enfrenta a Costa Rica por cuarta vez desde 2011. En los tres
-                                            anteriores enfrentamientos se han marcado 12 goles, una media de cuatro por
-                                            partido.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            España se ha clasificado para su 16ª Copa Mundial de la FIFA, la 12ª
-                                            consecutiva, su mayor racha de participaciones en el torneo. Solo Brasil
-                                            (22), Alemania (18) y Argentina (13) tienen actualmente rachas más largas.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            España ganó la Copa Mundial de la FIFA en 2010. Es la única vez que ha
-                                            llegado a las semifinales en sus últimas 13 participaciones. No obstante, ha
-                                            quedado primera de grupo en cuatro de sus últimas cinco.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta es la sexta participación de Costa Rica en la Copa Mundial de la FIFA –
-                                            no se ha clasificado en una vez solo en este siglo, que fue en 2010. Los
-                                            Ticos intentarán llegar a la fase eliminatoria por tercera vez tras 1990
-                                            (octavos de final) y 2014 (cuartos de final).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Costa Rica no ha ganado ninguno de sus últimos seis partidos mundialistas
-                                            (4E 2D), su mayor sequía en la competición. Además, en cuatro de esos seis
-                                            partidos no consiguió marcar gol.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub5-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub5-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub5-collapseTwo">
-                                        Alemania - Japón
-                                    </button>
-                                </h2>
-                                <div id="sub5-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub5-headingTwo" data-bs-parent="#sub5-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Alemania  - Japón.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Alemania y Japón se enfrentan por primera vez en la Copa Mundial de la FIFA.
-                                            Alemania está invicta en sus dos enfrentamientos anteriores con Japón (1V
-                                            1E), ambos amistosos internacionales en 2004 (3-0) y 2006 (2-2). Los siete
-                                            goles de esos dos duelos anteriores se marcaron en la segunda parte.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Alemania ha ganado la Copa Mundial de la FIFA en cuatro ocasiones, el mayor
-                                            registro entre las selecciones europeas (Italia también tiene cuatro). Entre
-                                            todos los países, solo Brasil ha levantado el trofeo en más ocasiones (5).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta será la 20ª participación de Alemania en la Copa Mundial de la FIFA,
-                                            convirtiéndose en la segunda selección, después de Brasil, en alcanzar la
-                                            marca de 20 participaciones en el torneo. La última vez que no participó en
-                                            una edición de la Copa del Mundo fue en 1950; desde entonces, ha superado la
-                                            primera ronda en todas las ediciones, excepto en 2018, cuando quedó última
-                                            de su grupo.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Exceptuando al anfitrión Catar, Alemania fue el primer equipo en
-                                            clasificarse para la Copa Mundial de la FIFA 2022, haciéndolo el 11 de
-                                            octubre de 2021.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta será la séptima participación consecutiva de Japón en la Copa Mundial
-                                            de la FIFA, una racha que se remonta a 1998.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Tras alcanzar los octavos de final en 2018, Japón intentará llegar a las
-                                            fase final de la Copa Mundial de la FIFA en ediciones consecutivas por
-                                            primera vez.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Japón ha ganado solo uno de sus últimos ocho partidos en la Copa Mundial de
-                                            la FIFA (3E 4D), fue en su primer partido contra Colombia en 2018 (2-1).
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END GRUPO E -->
-
-            <!-- GRUPO F -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                        Grupo F
-                    </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                        <img src="/catarImg/GrupoF.png" alt="Catar" style="width:100%">
-
-                        <div class="accordion" id="sub6-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub6-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub6-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseSix">
-                                        Bélgica - Canadá
-                                    </button>
-                                </h2>
-                                <div id="sub6-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub6-headingOne" data-bs-parent="#sub6-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Bélgica - Canadá.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Este es el primer enfrentamiento entre Bélgica y Canadá en la Copa Mundial
-                                            de la FIFA. El único previo fue un amistoso en Ottawa en junio de 1989, en
-                                            el que Bélgica ganó por 2-0.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Ninguna selección europea se ha clasificado para tantos torneos de la Copa
-                                            Mundial de la FIFA como Bélgica sin haberla ganado nunca. Esta es su 14ª
-                                            participación.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Bélgica fue el equipo más goleador en la última Copa Mundial de la FIFA, en
-                                            2018. Marcaron 16 goles en su camino hacia el tercer puesto.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            La última participación de Canadá en la Copa Mundial de la FIFA fue hace 36
-                                            años, en 1986. Es la segunda brecha más larga entre apariciones en el torneo
-                                            entre los equipos que participan este año, tras los 64 años de Gales.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub6-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub6-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub6-collapseTwo">
-                                        Marruecos – Croacia
-                                    </button>
-                                </h2>
-                                <div id="sub6-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub6-headingTwo" data-bs-parent="#sub6-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Marruecos – Croacia.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Este es el primer enfrentamiento entre Marruecos y Croacia en la Copa
-                                            Mundial de la FIFA. Su único encuentro anterior fue en el Trofeo Hassan II
-                                            en diciembre de 1996, jugado en Casablanca. El partido terminó 2-2, con tres
-                                            tarjetas rojas. Croacia ganó 7-6 en los penaltis.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Croacia ha ganado sus dos partidos de la Copa Mundial de la FIFA contra
-                                            rivales africanos por un global de 6-0 (4-0 vs Camerún en 2014, 2-0 vs
-                                            Nigeria en 2018).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta será la sexta participación de Marruecos en la Copa Mundial de la FIFA,
-                                            pero no ha superado la fase de grupos desde 1986, cuando acabó siendo
-                                            eliminado por Alemania en octavos de final (0-1).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Marrueco ha ganado solo uno de sus últimos 10 partidos de la Copa Mundial de
-                                            la FIFA (2E 7D), 3-0 contra Escocia en 1998 en la fase de grupos.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta es la sexta participación de Croacia en la Copa Mundial de la FIFA. En
-                                            las cinco anteriores, ha sido eliminada en la fase de grupos (3 veces) o ha
-                                            llegado a las semifinales (dos veces, incluida la final de 2018.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Croacia ha perdido su partido inaugural en tres de sus cinco participaciones
-                                            en el Mundial, con las excepciones de 1998 (llegó a la semifinal) y 2018
-                                            (llegó a la final).
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END GRUPO F -->
-
-            <!-- GRUPO G -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSeven">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                        Grupo G
-                    </button>
-                </h2>
-                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                        <img src="/catarImg/GrupoG.png" alt="Catar" style="width:100%">
-
-                        <div class="accordion" id="sub7-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub7-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub7-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseSeven">
-                                        Brasil – Serbia
-                                    </button>
-                                </h2>
-                                <div id="sub7-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub7-headingOne" data-bs-parent="#sub7-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Brasil – Serbia.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Brasil ha ganado sus dos enfrentamientos anteriores con Serbia, incluido el
-                                            de la fase de grupos de la última Copa Mundial de la FIFA (2-0, junio de
-                                            2018). El otro fue una victoria por 1-0 en un amistoso en junio de 2014.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Brasil es el único equipo que ha participado en todas las Copas Mundiales de
-                                            la FIFA desde su primera edición en 1930; esta será su 22ª participación.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Brasil está invicta en sus últimos 15 partidos de la fase de grupos del
-                                            Mundial, con 12 victorias (3E), siendo su última derrota en la fase de
-                                            grupos fue en 1998 contra Noruega. De hecho, Brasil ha sido primera de grupo
-                                            en la primera ronda en todos los mundiales desde 1982, y la última vez que
-                                            no pasó de la primera ronda fue en 1966.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Además de ganar cinco Copas Mundiales de la FIFA, Brasil ha ganado más
-                                            partidos (73) y tiene el mejor ratio de victorias (67% - 73 victorias en 109
-                                            partidos) que cualquier otra selección en la historia del torneo.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Como país independiente, Serbia ha sido eliminada de la fase de grupos en
-                                            sus tres participaciones en el Mundial (2006, 2010, 2018). La última vez que
-                                            llegaron a los octavos de final fue en 1998, como FR Yugoslavia.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub7-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub7-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub7-collapseTwo">
-                                        Suiza - Camerún
-                                    </button>
-                                </h2>
-                                <div id="sub7-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub7-headingTwo" data-bs-parent="#sub7-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Suiza - Camerún.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Este es el primer enfrentamiento de la historia entre Suiza y Camerún.
-                                            También es la segunda vez que Suiza se enfrenta a un rival africano en la
-                                            Copa Mundial de la FIFA – en la fase de grupos del torneo de 2006 ganó por
-                                            2-0 a Togo.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Suiza se ha clasificado para su 12ª Copa Mundial de la FIFA, al quedar
-                                            primera de grupo por delante de Italia, campeona de la Eurocopa. Es su
-                                            quinta participación consecutiva, estableciendo su mayor racha en este
-                                            sentido en el torneo.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Suiza está invicta en su partido inaugural en sus cinco participaciones en
-                                            la Copa Mundial de la FIFA (2V 3E), desde que perdió 5-0 contra Alemania en
-                                            1966.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Suiza forma parte de un grupo de tres selecciones europeas, junto con
-                                            Bélgica y Francia, que han llegado a la fase eliminatoria en cada uno de los
-                                            tres últimos grandes torneos internacionales (Mundial + Euro).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Suiza ha sido primera de grupo ya una vez en la Copa Mundial de la FIFA, en
-                                            2006. Ese fue el año en el que se convirtió en el único equipo hasta la
-                                            fecha que no ha encajado gol en un Mundial (4 partidos, 0 goles encajados).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Camerún ha perdido sus últimos siete partidos en la Copa Mundial de la FIFA.
-                                            Solo México ha perdido más encuentros seguidos en la historia de la
-                                            competición (9 entre 1930 y 1958).
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END GRUPO G -->
-
-            <!-- GRUPO H -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingEight">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                        Grupo H
-                    </button>
-                </h2>
-                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-
-                        <img src="/catarImg/GrupoH.png" alt="Catar" style="width:100%">
-
-                        <div class="accordion" id="sub8-accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub8-headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub8-collapseOne" aria-expanded="true"
-                                        aria-controls="collapseEight">
-                                        Portugal – Ghana
-                                    </button>
-                                </h2>
-                                <div id="sub8-collapseOne" class="accordion-collapse collapse"
-                                    aria-labelledby="sub8-headingOne" data-bs-parent="#sub8-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Portugal – Ghana.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            El único enfrentamiento previo entre Portugal y Ghana fue en la fase de
-                                            grupos de la Copa Mundial de la FIFA 2014. Portugal ganó 2-1, con un gol
-                                            ganador de Cristiano Ronaldo.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Portugal ha ganado solo tres de sus últimos 14 partidos del Mundial (6E 5D),
-                                            cada uno de ellos en la fase de grupos de la competición – su última
-                                            victoria en la fase eliminatoria fue en junio de 2006, cuando pasó a cuartos
-                                            de final gracias a una victoria 1-0 contra Países Bajos.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Ghana tendrá su cuarta aparición en la Copa Mundial de la FIFA, todas en el
-                                            siglo XXI. Solo en una ocasión no ha logrado superar la fase de grupos, en
-                                            su última participación en 2014.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Ghana llegó a los cuartos de final de la Copa Mundial de la FIFA en 2010, lo
-                                            que supone la mejor clasificación de una selección africana en la
-                                            competición, junto a Camerún en 1990 y Senegal en 2002.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            En caso de estar en la Copa Mundial de la FIFA 2022, el capitán de Ghana,
-                                            André Ayew, habrá participado en más partidos de la competición que
-                                            cualquier otro jugador actual de los países africanos (8, actualmente 7).
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="sub8-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#sub8-collapseTwo" aria-expanded="false"
-                                        aria-controls="sub8-collapseTwo">
-                                        Uruguay – Corea del Sur
-                                    </button>
-                                </h2>
-                                <div id="sub8-collapseTwo" class="accordion-collapse collapse"
-                                    aria-labelledby="sub8-headingTwo" data-bs-parent="#sub8-accordionExample">
-                                    <div class="accordion-body">
-                                        <img src="/catarImg/Uruguay – Corea del Sur.png" alt="Catar" style="width:100%">
-                                        <br>
-                                        <br>
-                                        <h3>
-                                            <p class="text-center"><u>Claves del partido</u></p>
-                                        </h3>
-                                        <li>
-                                            Este es el tercer partido de la Copa Mundial de la FIFA entre Uruguay y
-                                            Corea del Sur. Hasta ahora, Uruguay ha ganado los dos anteriores: 1-0 en la
-                                            fase de grupos de 1990 y 2-1 en los octavos de final de 2010, este último
-                                            con un doblete de Luis Suárez.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta es la 14ª participación de Uruguay en la Copa Mundial de la FIFA, y la
-                                            cuarta consecutiva desde 2010. Será la segunda vez que participa en cuatro
-                                            Copas del Mundo consecutivas (1962, 1966, 1970, 1974).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Uruguay ha ganado seis de sus últimos ocho partidos de la Copa Mundial de la
-                                            FIFA (2D). Ganó cuatro partidos en 2018 en Rusia (Egipto, Arabia Saudí,
-                                            Rusia, Portugal), igualando la mayor cantidad de victorias en un solo
-                                            Mundial, después de 1930 (Perú, Rumanía, Yugoslavia, Argentina).
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Esta será la undécima participación de la República de Corea en la Copa
-                                            Mundial de la FIFA, el mayor número de un país asiático. Además, la de 2022
-                                            será su 10ª participación consecutiva, una racha que se remonta a 1986; solo
-                                            Brasil, Alemania, Argentina y España tienen rachas más largas actualmente.
-                                        </li>
-                                        <br>
-                                        <li>
-                                            Entre los 22 países que han disputado 30 o más partidos en el Mundial, Corea
-                                            del Sur es la que tiene el menor porcentaje de victorias (18%), ya que ha
-                                            ganado solo seis de sus 34 partidos en 10 ediciones.
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END GRUPO H -->
+          </div>
         </div>
-        <!-- END Accordion -->
+        <!-- END GRUPO A -->
+
+        <!-- GRUPO B -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              Grupo B
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="sub2-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub2-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub2-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseTwo"
+                    >
+                      Estados Unidos - Inglaterra
+                    </button>
+                  </h2>
+                  <div
+                    id="sub2-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub2-headingOne"
+                    data-bs-parent="#sub2-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/EEUU - Inglaterra.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/EEUU - Inglaterra 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es el tercer enfrentamiento entre Inglaterra y
+                        Estados Unidos en la Copa del Mundo, con Estados Unidos
+                        habiendo ganado por 1-0 en 1950 y tras un empate a uno
+                        en 2010.
+                      </li>
+                      <br />
+                      <li>
+                        En todas las competiciones, Inglaterra ha ganado ocho de
+                        sus 11 encuentros ante Estados Unidos (1E 2D). Su última
+                        derrota ante ellos fue en junio de 1993 (0-2), ganando
+                        cuatro y empatando uno desde entonces.
+                      </li>
+                      <br />
+                      <li>
+                        Inglaterra ganó por 3-0 la última vez que enfrentó a
+                        Estados Unidos, en un amistoso en noviembre de 2018.
+                        Trent Alexander-Arnold y Callum Wilson anotaron sus
+                        únicos goles con los Three Lions en este encuentro.
+                      </li>
+                      <br />
+                      <li>
+                        Estados Unidos no ha dejado su portería a cero en
+                        ninguno de sus últimos 18 partidos de la Copa del Mundo
+                        ante rivales europeos (32 goles encajados), desde una
+                        victoria por 1-0 sobre Inglaterra en 1950.
+                      </li>
+                      <br />
+                      <li>
+                        Tras ganar por 6-2 a Irán en la primera jornada,
+                        Inglaterra busca ganar sus primeros dos partidos en una
+                        edición de la Copa del Mundo por cuarta vez, tras
+                        conseguirlo en 1982, 2006 y 2018. Su segundo encuentro
+                        en 2018 fue una victoria por 6-1 sobre Panamá.
+                      </li>
+                      <br />
+                      <li>
+                        Inglaterra completó 716 pases en su victoria por 6-2
+                        sobre Irán en la primera jornada, récord para ellos en
+                        la Copa del Mundo desde 1966. John Stones fue
+                        responsable de 116 de esos pases con éxito (16%),
+                        también mayor registro para un jugador inglés en la
+                        competición desde 1966.
+                      </li>
+                      <br />
+                      <li>
+                        Estados Unidos ha disputado más partidos en la Copa del
+                        Mundo sin haber empatado sin goles que cualquier otra
+                        selección (34), mientras que Inglaterra es la que más
+                        veces ha empatado 0-0 (11).
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub2-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub2-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub2-collapseTwo"
+                    >
+                      Gales - Irán
+                    </button>
+                  </h2>
+                  <div
+                    id="sub2-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub2-headingTwo"
+                    data-bs-parent="#sub2-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Gales - Iran.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Gales - Iran 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es apenas el segundo enfrentamiento entre Gales e
+                        Irán, con los Red Dragons venciendo en el primero de
+                        ellos en abril de 1978 – Phil Dwyer anotó el único gol
+                        del partido.
+                      </li>
+                      <br />
+                      <li>
+                        Gales ha enfrentado a rivales asiáticos en siete
+                        ocasiones en su historia y ha encajado solo un gol en
+                        estos duelos, dejando su portería imbatida en seis
+                        oportunidades (5V 2E). Su antecedente más reciente fue
+                        una victoria por 6-0 ante China en marzo de 2018.
+                      </li>
+                      <br />
+                      <li>
+                        Irán nunca ha derrotado a un rival europeo en la Copa
+                        del Mundo tras nueve enfrentamientos (2E 7D), encajando
+                        20 goles en total en esos encuentros, siendo seis de
+                        ellos en la primera jornada de esta edición ante
+                        Inglaterra (derrota 6-2).
+                      </li>
+                      <br />
+                      <li>
+                        Cuatro de los seis partidos de Gales en la Copa del
+                        Mundo han acabado empatados (67%), ningún equipo tiene
+                        un mayor ratio de empates en la historia de la
+                        competición.
+                      </li>
+                      <br />
+                      <li>
+                        Irán cayó por 6-2 ante Inglaterra en la primera jornada,
+                        siendo la cuarta vez en sus seis participaciones que
+                        pierden su partido estreno en la Copa del Mundo. Solo en
+                        una ocasión previa cayó en sus dos primeros partidos en
+                        una edición del torneo, en 2006.
+                      </li>
+                      <br />
+                      <li>
+                        Irán ha marcado nueve goles en 15 partidos de la Copa
+                        Mundial de la FIFA; con un 0,6, es el ratio de goles por
+                        partido más bajo de todos los países que han disputado
+                        más de 10 partidos en la competición. Ha marcado más de
+                        un gol en solo uno de sus 15 encuentros, en la victoria
+                        por 2-1 sobre Estados Unidos en 1998.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO B -->
+
+        <!-- GRUPO C -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+            >
+              Grupo C
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="sub3-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub2-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub3-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseThree"
+                    >
+                      Argentina – México
+                    </button>
+                  </h2>
+                  <div
+                    id="sub3-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub3-headingOne"
+                    data-bs-parent="#sub3-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Argentina - Mexico.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Argentina - Mexico 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Argentina está invicta en sus últimos 10 encuentros ante
+                        México en todas las competiciones (7V 3E) desde la
+                        derrota por 1-0 en la Copa América 2004.
+                      </li>
+                      <br />
+                      <li>
+                        México ha perdido sus tres partidos en la Copa Mundial
+                        de la FIFA contra Argentina, perdiendo 6-3 en 1930, 2-1
+                        en 2006 y 3-1 en 2010. Solo Austria (4 contra Italia) y
+                        Nigeria (5 contra Argentina) se han enfrentado más veces
+                        a su rival en la competición perdiendo todas ellas.
+                      </li>
+                      <br />
+                      <li>
+                        La derrota de Argentina contra Arabia Saudita en la 1ª
+                        jornada puso fin a una racha de 13 victorias
+                        consecutivas en la Copa del Mundo contra naciones no
+                        europeas, desde que perdió ante Camerún en 1990. Nunca
+                        antes había perdido partidos consecutivos en el Mundial
+                        contra equipos no europeos.
+                      </li>
+                      <br />
+                      <li>
+                        Argentina ha perdido cuatro de sus últimos seis partidos
+                        en la Copa del Mundo (1V 1E), tantos como en sus 25
+                        anteriores en la competición (16V 5E). Perdieron sus
+                        últimos dos encuentros en el torneo, y solo han perdido
+                        tres seguidos una vez antes (entre 1930 y 1958).
+                      </li>
+                      <br />
+                      <li>
+                        Tras su derrota por 2-1 contra Arabia Saudita en la 1ª
+                        jornada, Argentina busca evitar perder sus dos primeros
+                        partidos en una edición de la Copa del Mundo por primera
+                        vez en su historia.
+                      </li>
+                      <br />
+                      <li>
+                        México no ha marcado en sus últimos tres partidos en la
+                        Copa del Mundo; nunca se han quedado sin anotar en
+                        cuatro encuentros consecutivos en el torneo, siendo este
+                        su partido número 59 en las finales.
+                      </li>
+                      <br />
+                      <li>
+                        Tras empatar su primer partido en la Copa del Mundo
+                        2022, 0-0 contra Polonia, México podría no ganar ninguno
+                        de sus dos primeros partidos de una edición del torneo
+                        por primera vez desde 1978, cuando perdió los tres
+                        encuentros de su grupo.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub3-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub3-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub3-collapseTwo"
+                    >
+                      Polonia – Arabia Saudita
+                    </button>
+                  </h2>
+                  <div
+                    id="sub3-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub3-headingTwo"
+                    data-bs-parent="#sub3-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Polonia - Arabia Saudita.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Polonia - Arabia Saudita 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Éste es el primer encuentro entre Polonia y Arabia
+                        Saudita desde marzo de 2006 en un amistoso, cuando
+                        Polonia ganó 2-1 gracias a un doblete de Lukasz Sosin.
+                      </li>
+                      <br />
+                      <li>
+                        Éste es solo el tercer partido de la Copa Mundial de la
+                        FIFA de Polonia contra una nación asiática, perdió 2-0
+                        ante la República de Corea en 2002 y venció a Japón 1-0
+                        en 2018.
+                      </li>
+                      <br />
+                      <li>
+                        Arabia Saudita ha perdido nueve de sus 10 partidos en la
+                        Copa del Mundo contra naciones europeas, con la
+                        excepción de una victoria por 1-0 sobre Bélgica en 1994.
+                        Ha perdido cada uno de sus últimos ocho partidos de este
+                        tipo, sin marcar un solo gol en los últimos siete.
+                      </li>
+                      <br />
+                      <li>
+                        Polonia ha dejado su portería a cero en sus dos últimos
+                        partidos en la Copa del Mundo; solo de 1974 a 1978
+                        registró tres seguidos sin recibir gol en las finales
+                        (racha de tres).
+                      </li>
+                      <br />
+                      <li>
+                        Polonia intentó seis remates contra México en la 1ª
+                        jornada, su cifra más baja en un solo partido de la Copa
+                        del Mundo desde que Opta tiene estos datos (desde 1966),
+                        y su registro anterior más bajo era de ocho remates
+                        contra Alemania en 2006.
+                      </li>
+                      <br />
+                      <li>
+                        Arabia Saudita marcó con sus dos remates a portería
+                        contra Argentina en la 1ª jornada – ha anotado al menos
+                        dos goles en encuentros consecutivos por primera vez en
+                        la Copa del Mundo, pero nunca ha marcado tres goles en
+                        un mismo partido en la competición.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO C -->
+
+        <!-- GRUPO D -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="true"
+              aria-controls="collapseFour"
+            >
+              Grupo D
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="sub4-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub4-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub4-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseFour"
+                    >
+                      Francia – Dinamarca
+                    </button>
+                  </h2>
+                  <div
+                    id="sub4-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub4-headingOne"
+                    data-bs-parent="#sub4-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Francia - Dinamarca.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Francia - Dinamarca 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este será el cuarto encuentro entre Francia y Dinamarca
+                        en la Copa Mundial de la FIFA, todos en la fase de
+                        grupos de la competición. Francia ganó el torneo en dos
+                        de las ocasiones anteriores en las que se enfrentó a
+                        Dinamarca (1998 y 2018), y la otra llegó como campeona
+                        vigente en 2002.
+                      </li>
+                      <br />
+                      <li>
+                        Dinamarca ha ganado sus dos últimos encuentros con
+                        Francia en todas las competiciones, ambos en la UEFA
+                        Nations League en 2022. Nunca antes ha ganado tres
+                        seguidos contra ellos, y ningún equipo ha derrotado a
+                        Francia tres veces en el mismo año natural.
+                      </li>
+                      <br />
+                      <li>
+                        Esta es la tercera vez que Dinamarca se enfrenta a los
+                        vigentes campeones del mundo en la Copa Mundial de la
+                        FIFA – perdió 3-2 ante Brasil en los cuartos de final de
+                        1998, antes de vencer a Francia 2-0 en la fase de grupos
+                        de 2002.
+                      </li>
+                      <br />
+                      <li>
+                        Francia ha ganado cada uno de sus últimos cinco partidos
+                        en la Copa del Mundo; nunca ha ganado seis partidos
+                        seguidos en las finales, y la última nación en hacerlo
+                        fue España en 2010.
+                      </li>
+                      <br />
+                      <li>
+                        Cada uno de los últimos cuatro partidos de Dinamarca en
+                        la Copa del Mundo ha terminado en empate - solo Bélgica
+                        ha cosechado cinco empates consecutivos en el torneo,
+                        entre 1998 y 2002.
+                      </li>
+                      <br />
+                      <li>
+                        Dinamarca ha dejado su portería a cero en tres de sus
+                        últimos cinco partidos en la Copa del Mundo, solo una
+                        vez menos que en sus primeros 16 encuentros en la
+                        competición (cuatro). Sin embargo, tampoco ha marcado en
+                        dos de sus últimos tres en la Copa del Mundo, tantas
+                        veces como en sus primeros 18.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub4-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub4-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub4-collapseTwo"
+                    >
+                      Túnez - Australia
+                    </button>
+                  </h2>
+                  <div
+                    id="sub4-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub4-headingTwo"
+                    data-bs-parent="#sub4-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Tunez - Australia.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Tunez - Australia 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es solo el tercer encuentro entre Túnez y Australia
+                        en todas las competiciones - Australia ganó 3-0 en un
+                        amistoso en octubre de 1997, antes de que Túnez ganara
+                        2-0 en la Copa Confederaciones de 2005.
+                      </li>
+                      <br />
+                      <li>
+                        Australia se enfrenta a un rival africano en la Copa del
+                        Mundo de la FIFA por segunda vez (18º partido en total)
+                        - en el otro empató 1-1 con Ghana en 2010.
+                      </li>
+                      <br />
+                      <li>
+                        Contra Dinamarca en el último encuentro, Túnez mantuvo
+                        por segunda vez su portería a cero en sus 16 partidos en
+                        la Copa del Mundo – las dos veces fue en empates sin
+                        goles (también vs Alemania en 1978).
+                      </li>
+                      <br />
+                      <li>
+                        Australia ha perdido seis de sus últimos siete partidos
+                        en la Copa del Mundo (1E), encajando 18 goles en este
+                        período. Podría perder sus dos primeros partidos de una
+                        edición mundialista por tercera vez, también lo hicieron
+                        en 1974 y 2014.
+                      </li>
+                      <br />
+                      <li>
+                        Túnez ha evitado la derrota en partidos consecutivos de
+                        la Copa del Mundo por primera vez (1V 1E). Sin embargo,
+                        ha perdido cuatro de sus cinco partidos de la fase de
+                        grupos jugados en la 2ª jornada, con la excepción de un
+                        empate 1-1 con Bélgica en 2002.
+                      </li>
+                      <br />
+                      <li>
+                        Australia ha dejado solo una vez su portería a cero en
+                        17 partidos de la Copa del Mundo - ningún equipo que
+                        haya disputado 10 o más partidos en el torneo tiene un
+                        porcentaje más bajo (6%, igualado con Arabia Saudita).
+                      </li>
+                      <br />
+                      <li>
+                        Túnez realizó 13 remates contra Dinamarca en su primer
+                        partido de esta edición, más del doble de los que hizo
+                        contra Inglaterra en la 1ª jornada en la Copa del Mundo
+                        de 2018 (6). Sin embargo, solo uno de sus 13 intentos
+                        fue a portería.
+                      </li>
+                      <br />
+                      <li>
+                        Contra Francia en la 1ª jornada, Australia intentó solo
+                        cuatro remates, la cifra más baja de su historia en un
+                        partido de la Copa del Mundo, igualando los cuatro
+                        contra España en 2014
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO D -->
+
+        <!-- GRUPO E -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="true"
+              aria-controls="collapseFive"
+            >
+              Grupo E
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="sub5-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub5-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub5-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseFive"
+                    >
+                      España – Alemania
+                    </button>
+                  </h2>
+                  <div
+                    id="sub5-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub5-headingOne"
+                    data-bs-parent="#sub5-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/España – Alemania.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/España – Alemania 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este será el quinto encuentro entre España y Alemania en
+                        la Copa del Mundo de la FIFA, la mayor cifra de España
+                        contra cualquier rival en la competición (también cinco
+                        contra Brasil). No pudo ganar ninguno de sus primeros
+                        tres contra Alemania (1E 2D), pero si lo hizo en el más
+                        reciente: 1-0 en la semifinal de 2010 en el camino a
+                        levantar el trofeo.
+                      </li>
+                      <br />
+                      <li>
+                        Alemania ha ganado solo uno de sus últimos siete
+                        encuentros con España en todas las competiciones (2E
+                        4D), ganando 1-0 en un partido amistoso en noviembre de
+                        2014. Sin contar amistosos, los germanos no han
+                        derrotado a España desde la Euro de 1988 (2-0),
+                        empatando dos y perdiendo tres desde entonces.
+                      </li>
+                      <br />
+                      <li>
+                        Alemania ha perdido tres de sus últimos cuatro partidos
+                        de la Copa del Mundo, tantos como en los 21 anteriores.
+                        Ha perdido dos seguidos en la competición por tercera
+                        vez (también en 1958 y 1982), y nunca ha perdido en tres
+                        partidos consecutivos de la Copa del Mundo antes.
+                      </li>
+                      <br />
+                      <li>
+                        España ganó su primer partido de la Copa Mundial 2022
+                        contra Costa Rica 7-0, su mayor victoria en la historia
+                        en una fase final. En solo tres ediciones anteriores de
+                        la Copa del Mundo, España ganó sus dos primeros
+                        partidos: 1950, 2002 y 2006.
+                      </li>
+                      <br />
+                      <li>
+                        Alemania cayó en su primer partido de la fase de grupos
+                        tanto en 2018 como en 2022, habiendo perdido su primer
+                        partido en solo una de sus 18 participaciones anteriores
+                        en la Copa del Mundo. Nunca antes han sido derrotados en
+                        dos partidos seguidos de la fase de grupos en la misma
+                        edición de la competición.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub5-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub5-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub5-collapseTwo"
+                    >
+                      Costa Rica – Japón
+                    </button>
+                  </h2>
+                  <div
+                    id="sub5-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub5-headingTwo"
+                    data-bs-parent="#sub5-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Costa Rica – Japón.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Costa Rica – Japón 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Japón nunca perdió en sus cuatro partidos anteriores
+                        ante Costa Rica en todas las competiciones (3V 1E),
+                        anotando exactamente tres goles en las tres victorias en
+                        esta racha.
+                      </li>
+                      <br />
+                      <li>
+                        Costa Rica ganó su único partido anterior de la Copa
+                        Mundial de la FIFA contra una nación asiática, venciendo
+                        a China 2-0 en la edición de 2002.
+                      </li>
+                      <br />
+                      <li>
+                        Después de vencer a Alemania 2-1 en la J1, Japón busca
+                        ganar en dos partidos consecutivos de la Copa del Mundo
+                        por primera vez desde 2002 (contra Rusia y Túnez),
+                        mientras que nunca ha ganado en sus dos primeros
+                        partidos en una fase final.
+                      </li>
+                      <br />
+                      <li>
+                        Costa Rica perdió su partido inaugural de la Copa del
+                        Mundo 2022 7-0 ante España, concediendo tantos goles en
+                        ese partido como en los ocho partidos anteriores juntos
+                        en Mundiales.
+                      </li>
+                      <br />
+                      <li>
+                        Desde que derrotó a Uruguay e Italia en su grupo en
+                        2014, Costa Rica no ha ganado en sus siete partidos
+                        siguientes de la Copa Mundial (4E 3D) y se quedó sin
+                        anotar en cinco de ellos.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO E -->
+
+        <!-- GRUPO F -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="true"
+              aria-controls="collapseSix"
+            >
+              Grupo F
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div class="accordion" id="sub6-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub6-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub6-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseSix"
+                    >
+                      Bélgica – Marruecos
+                    </button>
+                  </h2>
+                  <div
+                    id="sub6-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub6-headingOne"
+                    data-bs-parent="#sub6-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Bélgica – Marruecos.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Bélgica – Marruecos 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es el segundo encuentro entre Bélgica y Marruecos
+                        en la Copa del Mundo de la FIFA, los belgas ganaron 1-0
+                        en el anterior, disputado en Estados Unidos 1994.
+                      </li>
+                      <br />
+                      <li>
+                        Marruecos ganó su último encuentro ante Bélgica en todas
+                        las competiciones: 4-1 en un amistoso en marzo de 2008.
+                        Había perdido sus dos partidos anteriores contra los
+                        belgas.
+                      </li>
+                      <br />
+                      <li>
+                        Bélgica nunca ha perdido un partido de la Copa del Mundo
+                        de la FIFA contra una nación africana (3V 1E), y todos
+                        estos encuentros se produjeron en la fase de grupos de
+                        la competición. Su partido más reciente fue una victoria
+                        por 5-2 sobre Túnez en 2018.
+                      </li>
+                      <br />
+                      <li>
+                        Este será el partido número 50 de Bélgica en la Copa
+                        Mundial de la FIFA, la duodécima nación diferente en
+                        alcanzar esta cifra. Solo dos de los 11 anteriores han
+                        perdido su partido número 50 (8V 1E): Inglaterra en 2002
+                        (contra Brasil) y España en 2010 (contra Suiza), aunque
+                        este último ganó el torneo en esa edición.
+                      </li>
+                      <br />
+                      <li>
+                        Bélgica ha ganado cada uno de sus últimos ocho partidos
+                        de la fase de grupos en la Copa del Mundo. Una victoria
+                        aquí los convertiría en la primera nación en ganar nueve
+                        partidos de grupo consecutivos en el torneo (incluidas
+                        la segunda y última ronda de grupos).
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub6-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub6-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub6-collapseTwo"
+                    >
+                      Croacia – Canadá
+                    </button>
+                  </h2>
+                  <div
+                    id="sub6-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub6-headingTwo"
+                    data-bs-parent="#sub6-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/jornada2/Croacia – Canadá.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <img
+                        src="/catarImg/jornada2/Croacia – Canadá 2.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este será el primer partido entre Croacia y Canadá.
+                      </li>
+                      <br />
+                      <li>
+                        Croacia se ha enfrentado a equipos de CONCACAF en tres
+                        ocasiones anteriores en la Copa del Mundo: venció a
+                        Jamaica 3-1 en su primer partido en la competición en
+                        1998, antes de perder contra México en 2002 y 2014.
+                      </li>
+                      <br />
+                      <li>
+                        Canadá ha perdido sus cuatro partidos de la Copa del
+                        Mundo sin marcar un solo gol. Esta es la mayor cantidad
+                        de partidos que una nación ha jugado sin marcar nunca en
+                        la competición, mientras que solo El Salvador (seis
+                        encuentros) ha jugado más partidos en la fase final sin
+                        evitar la derrota.
+                      </li>
+                      <br />
+                      <li>
+                        El empate sin goles de Croacia con Marruecos en la J1
+                        puso fin a su racha goleadora en 11 partidos
+                        consecutivos de la Copa del Mundo. Solo una vez no ha
+                        marcado en dos partidos consecutivos en la misma edición
+                        del torneo, en sus dos primeros partidos de grupo en
+                        2006.
+                      </li>
+                      <br />
+                      <li>
+                        Canadá intentó 22 remates en su derrota ante Bélgica en
+                        J1, el doble de su récord anterior en un partido de la
+                        Copa del Mundo (11 contra la URSS en 1986). Sin embargo,
+                        solo tres de esos lanzamientos fueron a portería (14%).
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO F -->
+
+        <!-- GRUPO G -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="true"
+              aria-controls="collapseSeven"
+            >
+              Grupo G
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSeven"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <img src="/catarImg/GrupoG.png" alt="Catar" style="width: 100%" />
+
+              <div class="accordion" id="sub7-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub7-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub7-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseSeven"
+                    >
+                      Brasil – Serbia
+                    </button>
+                  </h2>
+                  <div
+                    id="sub7-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub7-headingOne"
+                    data-bs-parent="#sub7-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/Brasil – Serbia.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Brasil ha ganado sus dos enfrentamientos anteriores con
+                        Serbia, incluido el de la fase de grupos de la última
+                        Copa Mundial de la FIFA (2-0, junio de 2018). El otro
+                        fue una victoria por 1-0 en un amistoso en junio de
+                        2014.
+                      </li>
+                      <br />
+                      <li>
+                        Brasil es el único equipo que ha participado en todas
+                        las Copas Mundiales de la FIFA desde su primera edición
+                        en 1930; esta será su 22ª participación.
+                      </li>
+                      <br />
+                      <li>
+                        Brasil está invicta en sus últimos 15 partidos de la
+                        fase de grupos del Mundial, con 12 victorias (3E),
+                        siendo su última derrota en la fase de grupos fue en
+                        1998 contra Noruega. De hecho, Brasil ha sido primera de
+                        grupo en la primera ronda en todos los mundiales desde
+                        1982, y la última vez que no pasó de la primera ronda
+                        fue en 1966.
+                      </li>
+                      <br />
+                      <li>
+                        Además de ganar cinco Copas Mundiales de la FIFA, Brasil
+                        ha ganado más partidos (73) y tiene el mejor ratio de
+                        victorias (67% - 73 victorias en 109 partidos) que
+                        cualquier otra selección en la historia del torneo.
+                      </li>
+                      <br />
+                      <li>
+                        Como país independiente, Serbia ha sido eliminada de la
+                        fase de grupos en sus tres participaciones en el Mundial
+                        (2006, 2010, 2018). La última vez que llegaron a los
+                        octavos de final fue en 1998, como FR Yugoslavia.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub7-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub7-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub7-collapseTwo"
+                    >
+                      Suiza - Camerún
+                    </button>
+                  </h2>
+                  <div
+                    id="sub7-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub7-headingTwo"
+                    data-bs-parent="#sub7-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/Suiza - Camerún.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es el primer enfrentamiento de la historia entre
+                        Suiza y Camerún. También es la segunda vez que Suiza se
+                        enfrenta a un rival africano en la Copa Mundial de la
+                        FIFA – en la fase de grupos del torneo de 2006 ganó por
+                        2-0 a Togo.
+                      </li>
+                      <br />
+                      <li>
+                        Suiza se ha clasificado para su 12ª Copa Mundial de la
+                        FIFA, al quedar primera de grupo por delante de Italia,
+                        campeona de la Eurocopa. Es su quinta participación
+                        consecutiva, estableciendo su mayor racha en este
+                        sentido en el torneo.
+                      </li>
+                      <br />
+                      <li>
+                        Suiza está invicta en su partido inaugural en sus cinco
+                        participaciones en la Copa Mundial de la FIFA (2V 3E),
+                        desde que perdió 5-0 contra Alemania en 1966.
+                      </li>
+                      <br />
+                      <li>
+                        Suiza forma parte de un grupo de tres selecciones
+                        europeas, junto con Bélgica y Francia, que han llegado a
+                        la fase eliminatoria en cada uno de los tres últimos
+                        grandes torneos internacionales (Mundial + Euro).
+                      </li>
+                      <br />
+                      <li>
+                        Suiza ha sido primera de grupo ya una vez en la Copa
+                        Mundial de la FIFA, en 2006. Ese fue el año en el que se
+                        convirtió en el único equipo hasta la fecha que no ha
+                        encajado gol en un Mundial (4 partidos, 0 goles
+                        encajados).
+                      </li>
+                      <br />
+                      <li>
+                        Camerún ha perdido sus últimos siete partidos en la Copa
+                        Mundial de la FIFA. Solo México ha perdido más
+                        encuentros seguidos en la historia de la competición (9
+                        entre 1930 y 1958).
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO G -->
+
+        <!-- GRUPO H -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="true"
+              aria-controls="collapseEight"
+            >
+              Grupo H
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingEight"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <img src="/catarImg/GrupoH.png" alt="Catar" style="width: 100%" />
+
+              <div class="accordion" id="sub8-accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub8-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub8-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseEight"
+                    >
+                      Portugal – Ghana
+                    </button>
+                  </h2>
+                  <div
+                    id="sub8-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub8-headingOne"
+                    data-bs-parent="#sub8-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/Portugal – Ghana.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        El único enfrentamiento previo entre Portugal y Ghana
+                        fue en la fase de grupos de la Copa Mundial de la FIFA
+                        2014. Portugal ganó 2-1, con un gol ganador de Cristiano
+                        Ronaldo.
+                      </li>
+                      <br />
+                      <li>
+                        Portugal ha ganado solo tres de sus últimos 14 partidos
+                        del Mundial (6E 5D), cada uno de ellos en la fase de
+                        grupos de la competición – su última victoria en la fase
+                        eliminatoria fue en junio de 2006, cuando pasó a cuartos
+                        de final gracias a una victoria 1-0 contra Países Bajos.
+                      </li>
+                      <br />
+                      <li>
+                        Ghana tendrá su cuarta aparición en la Copa Mundial de
+                        la FIFA, todas en el siglo XXI. Solo en una ocasión no
+                        ha logrado superar la fase de grupos, en su última
+                        participación en 2014.
+                      </li>
+                      <br />
+                      <li>
+                        Ghana llegó a los cuartos de final de la Copa Mundial de
+                        la FIFA en 2010, lo que supone la mejor clasificación de
+                        una selección africana en la competición, junto a
+                        Camerún en 1990 y Senegal en 2002.
+                      </li>
+                      <br />
+                      <li>
+                        En caso de estar en la Copa Mundial de la FIFA 2022, el
+                        capitán de Ghana, André Ayew, habrá participado en más
+                        partidos de la competición que cualquier otro jugador
+                        actual de los países africanos (8, actualmente 7).
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="sub8-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#sub8-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="sub8-collapseTwo"
+                    >
+                      Uruguay – Corea del Sur
+                    </button>
+                  </h2>
+                  <div
+                    id="sub8-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="sub8-headingTwo"
+                    data-bs-parent="#sub8-accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <img
+                        src="/catarImg/Uruguay – Corea del Sur.png"
+                        alt="Catar"
+                        style="width: 100%"
+                      />
+                      <br />
+                      <br />
+                      <h3>
+                        <p class="text-center"><u>Claves del partido</u></p>
+                      </h3>
+                      <li>
+                        Este es el tercer partido de la Copa Mundial de la FIFA
+                        entre Uruguay y Corea del Sur. Hasta ahora, Uruguay ha
+                        ganado los dos anteriores: 1-0 en la fase de grupos de
+                        1990 y 2-1 en los octavos de final de 2010, este último
+                        con un doblete de Luis Suárez.
+                      </li>
+                      <br />
+                      <li>
+                        Esta es la 14ª participación de Uruguay en la Copa
+                        Mundial de la FIFA, y la cuarta consecutiva desde 2010.
+                        Será la segunda vez que participa en cuatro Copas del
+                        Mundo consecutivas (1962, 1966, 1970, 1974).
+                      </li>
+                      <br />
+                      <li>
+                        Uruguay ha ganado seis de sus últimos ocho partidos de
+                        la Copa Mundial de la FIFA (2D). Ganó cuatro partidos en
+                        2018 en Rusia (Egipto, Arabia Saudí, Rusia, Portugal),
+                        igualando la mayor cantidad de victorias en un solo
+                        Mundial, después de 1930 (Perú, Rumanía, Yugoslavia,
+                        Argentina).
+                      </li>
+                      <br />
+                      <li>
+                        Esta será la undécima participación de la República de
+                        Corea en la Copa Mundial de la FIFA, el mayor número de
+                        un país asiático. Además, la de 2022 será su 10ª
+                        participación consecutiva, una racha que se remonta a
+                        1986; solo Brasil, Alemania, Argentina y España tienen
+                        rachas más largas actualmente.
+                      </li>
+                      <br />
+                      <li>
+                        Entre los 22 países que han disputado 30 o más partidos
+                        en el Mundial, Corea del Sur es la que tiene el menor
+                        porcentaje de victorias (18%), ya que ha ganado solo
+                        seis de sus 34 partidos en 10 ediciones.
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END GRUPO H -->
+      </div>
+      <!-- END Accordion -->
     </div>
     <!-- END w3-content -->
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <!-- END Bootstrap JS -->
-
-</body>
-
+  </body>
 </html>
