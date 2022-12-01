@@ -1,438 +1,757 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Betcris - Catar 2022</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="/catarImg/Cris_FavIcon.jpg">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/catarImg/Cris_FavIcon.jpg" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- Bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <!-- END Bootstrap -->
+  </head>
 
-</head>
-
-<body class="w3" oncontextmenu="return false;" onmousedown="return false" onselectstart="return false">
-
+  <body
+    class="w3"
+    oncontextmenu="return false;"
+    onmousedown="return false"
+    onselectstart="return false"
+  >
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #782c4e;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/catarImg/logo-blanco.png" alt="" width="130" height="30">
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-dark"
+      style="background-color: #782c4e"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/catarImg/logo-blanco.png" alt="" width="130" height="30" />
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle navbar-brand"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Seleccione el país
             </a>
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle navbar-brand" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Seleccione el país
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#Alemania">Alemania</a></li>
-                        <li><a class="dropdown-item" href="#Dinamarca">Dinamarca</a></li>
-                        <li><a class="dropdown-item" href="#España">España</a></li>
-                        <li><a class="dropdown-item" href="#Suiza">Suiza</a></li>
-                        <li><a class="dropdown-item" href="#Inglaterra">Inglaterra</a></li>
-                        <li><a class="dropdown-item" href="#Francia">Francia</a></li>
-                        <li><a class="dropdown-item" href="#Bélgica">Bélgica</a></li>
-                        <li><a class="dropdown-item" href="#Croacia">Croacia</a></li>
-                        <li><a class="dropdown-item" href="#Serbia">Serbia</a></li>
-                        <li><a class="dropdown-item" href="#PaísesBajos">Países Bajos</a></li>
-                        <li><a class="dropdown-item" href="#Polonia">Polonia</a></li>
-                        <li><a class="dropdown-item" href="#Portugal">Portugal</a></li>
-                        <li><a class="dropdown-item" href="#Gales">Gales</a></li>
-                    </ul>
-                </li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Alemania">Alemania</a></li>
+              <li><a class="dropdown-item" href="#Dinamarca">Dinamarca</a></li>
+              <li><a class="dropdown-item" href="#España">España</a></li>
+              <li><a class="dropdown-item" href="#Suiza">Suiza</a></li>
+              <li>
+                <a class="dropdown-item" href="#Inglaterra">Inglaterra</a>
+              </li>
+              <li><a class="dropdown-item" href="#Francia">Francia</a></li>
+              <li><a class="dropdown-item" href="#Bélgica">Bélgica</a></li>
+              <li><a class="dropdown-item" href="#Croacia">Croacia</a></li>
+              <li><a class="dropdown-item" href="#Serbia">Serbia</a></li>
+              <li>
+                <a class="dropdown-item" href="#PaísesBajos">Países Bajos</a>
+              </li>
+              <li><a class="dropdown-item" href="#Polonia">Polonia</a></li>
+              <li><a class="dropdown-item" href="#Portugal">Portugal</a></li>
+              <li><a class="dropdown-item" href="#Gales">Gales</a></li>
             </ul>
-        </div>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- END Navbar -->
 
     <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
-    <div class="w3-content" style="max-width:1400px">
+    <div class="w3-content" style="max-width: 1400px">
+      <!-- Grid -->
+      <div class="w3-row">
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white">
+          <img src="/catarImg/UEFA.jpg" alt="" style="width: 100%" />
+          <hr />
+          <!-- Alemania -->
+          <div id="Alemania" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/ALEMANIAStatus.jpg"
+              alt="Alemania"
+              style="width: 100%"
+            />
+            <p>
+              ● Alemania ha ganado la Copa Mundial de la FIFA cuatro veces;
+              ninguna nación europea ha ganado más (Italia también cuatro).
+              Entre todas las naciones, solo Brasil ha levantado el trofeo en
+              más ocasiones (5).
+            </p>
+            <p>
+              ● Ésta será la 20ª participación de Alemania en la Copa Mundial de
+              la FIFA, convirtiéndose en el segundo equipo, después de Brasil,
+              en alcanzar las 20 presencias en el torneo. La última vez que no
+              participó en una edición de la Copa del Mundo fue en 1950; desde
+              entonces, ha superado la primera ronda en todas las ediciones,
+              excepto en 2018, cuando terminó último de su grupo.
+            </p>
+            <p>
+              ● Alemania ha llegado a las semifinales en cuatro de sus cinco
+              participaciones en la Copa Mundial este siglo, con la única
+              excepción de 2018, más que cualquier otra nación en este período.
+            </p>
+            <p>
+              ● Después de los anfitriones, Catar, Alemania fue el primer equipo
+              en clasificarse para la Copa Mundial de la FIFA 2022, y lo hizo el
+              11 de octubre de 2021. Alemania ganó nueve de sus 10 partidos en
+              la fase clasificación (1D), y solo Inglaterra (39) anotó más goles
+              que los alemanes (36, excluyendo play-offs).
+            </p>
+            <p>
+              ● Thomas Müller ha marcado 10 goles y dado seis asistencias en 16
+              partidos en la Copa Mundial de la FIFA, la cifra más alta de
+              cualquier jugador desde su primera aparición en 2010. Solo
+              Miroslav Klose (16), Gerd Müller (14) y Jürgen Klinsmann (11) han
+              anotado más goles para Alemania en la fase final que Müller,
+              mientras que desde 1966, solo Pierre Littbarski (7) ha dado más
+              asistencias para la nación.
+            </p>
+            <p>
+              ● Éste será el primer gran torneo de Hansi Flick como entrenador
+              de Alemania. Jupp Derwall es el último entrenador en ganar un gran
+              torneo con Alemania en su primer intento (EURO 1980).
+            </p>
+          </div>
+          <div class="w3-container"></div>
+          <br />
+          <hr />
+          <!-- Dinamarca -->
+          <div id="Dinamarca" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/DINAMARCAStatus.jpg"
+              alt="Dinamarca"
+              style="width: 100%"
+            />
+            <p>
+              ● Esta será la sexta participación de Dinamarca en la Copa Mundial
+              de la FIFA. Es la segunda vez que clasifica para torneos
+              consecutivos, después de 1998 y 2002.
+            </p>
+            <p>
+              ● Dinamarca superó la fase de grupos en cuatro de sus cinco
+              participaciones anteriores en la Copa del Mundo, pero nunca llegó
+              más allá de cuartos de final (1998).
+            </p>
+            <p>
+              ● Dinamarca ha ganado nueve de sus 10 partidos en la clasificación
+              para la Copa del Mundo, perdiendo solo contra Escocia. Dinamarca
+              dejó más veces su portería a cero en la fase de grupos de la
+              clasificación europea que cualquier otro equipo (8).
+            </p>
+            <p>
+              ● Ningún jugador anotó más goles para Dinamarca en la
+              clasificación para la Copa Mundial 2022 que Joakim Maehle (5,
+              igualado con Andreas Skov Olsen), mientras que ningún jugador
+              participó en más goles para la nación durante su último gran
+              torneo (EURO 2020) que Maehle (3 - 2 goles y 1 asistencia).
+            </p>
+            <p>
+              ● Yussuf Poulsen marcó un gol en la Copa del Mundo de 2018 y dos
+              en la EURO 2020. Podría convertirse en el tercer jugador danés en
+              marcar en tres grandes torneos diferentes, trasMichael Laudrup
+              (Copa del Mundo de 1986, EURO de 1988 y Copa del Mundo de 1998) y
+              Jon Dahl Tomasson (Mundial 2002, EURO 2004 y Mundial 2010).
+            </p>
+            <p>
+              ● Éste será el segundo gran torneo consecutivo de Kasper Hjulmand
+              como seleccionador de Dinamarca. Llevó a los daneses a las
+              semifinales de la Eurocopa 2020, su mejor actuación en un torneo
+              importante desde que ganó la EURO 1992.
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- España -->
+          <div id="España" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/ESPANAStatus.jpg"
+              alt="España"
+              style="width: 100%"
+            />
+            <p>
+              ● España ha clasificado a su 16ª edición de la Copa del Mundo de
+              la FIFA y la 12ª de manera consecutiva, su mayor racha de
+              participaciones seguidas en la historia del torneo.
+            </p>
+            <p>
+              ● España ganó la Copa del Mundo en 2010. La de Sudáfrica es la
+              única vez que el combinado español ha llegado a semifinales en sus
+              últimas 13 participaciones. No obstante, España ha quedado primera
+              de grupo en cuatro de sus últimas cinco participaciones
+              mundialistas.
+            </p>
+            <p>
+              ● El próximo gol de España en la Copa del Mundo de la FIFA será su
+              número 100 en el torneo. José Iraragorri marcó el primero en 1934,
+              en una victoria por 3-1 en octavos de final contra Brasil.
+            </p>
+            <p>
+              ● Durante la fase de grupos de la clasificación europea para la
+              Copa del Mundo de 2022, la media de posesión de España fue del 76
+              %, la más alta de cualquier otra selección. Además, fue la
+              selección que menos remates recibió en la fase europea (38 en 8
+              partidos, igual que Inglaterra).
+            </p>
+            <p>
+              ● Ferran Torres marcó cuatro goles en la fase de clasificación
+              para el Mundial de 2022, al menos el doble que cualquier otro
+              jugador de España, y además intentó más remates que cualquiera de
+              sus compañeros (19). Con 22 años, puede convertirse en el goleador
+              más joven de España en un Mundial desde que Fernando Torres marcó
+              tres goles en 2006, también con 22 años.
+            </p>
+            <p>
+              ● Luis Enrique disputó 12 partidos en la Copa del Mundo como
+              jugador de España entre 1994, 1998 y 2002, anotando dos goles.
+              Este es su segundo gran torneo (Mundial y Eurocopa) como
+              seleccionador de España tras la Euro 2020, en la que llevó a su
+              equipo a las semifinales y registrando la mayor cantidad de goles
+              en el torneo (13, los mismos que los ganadores – Italia).
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Suiza -->
+          <div id="Suiza" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/SUIZAStatus.jpg"
+              alt="Suiza"
+              style="width: 100%"
+            />
+            <p>
+              ● Suiza ha clasificado para su 12ª Copa Mundial de la FIFA y
+              terminó primera de grupo por delante de la vigente campeona de la
+              Eurocopa, Italia. Es su 5ª presencia consecutiva, estableciendo su
+              racha más larga de apariciones consecutivas en el torneo.
+            </p>
+            <p>
+              ● Suiza alcanzó por última vez los cuartos de final de la Copa
+              Mundial de la FIFA en 1954, cuando el torneo se jugó en su país.
+              Desde entonces, nunca han pasado de la segunda ronda.
+            </p>
+            <p>
+              ● Suiza es parte de un grupo de solo tres equipos europeos
+              (Bélgica y Francia son los otros) que han alcanzado las fases
+              eliminatorias en cada uno de los últimos cuatro torneos
+              internacionales importantes (Mundial + Eurocopa).
+            </p>
+            <p>
+              ● Suiza encabezó su grupo solo una vez en la Copa Mundial de la
+              FIFA, y lo hizo en 2006. Ese fue el año en que se convirtió en el
+              único equipo hasta la fecha que no encajó un solo gol en una Copa
+              Mundial (4 partidos, 0 goles encajados).
+            </p>
+            <p>
+              ● Xherdan Shaqiri ha participado en el 48 % de los 23 goles de
+              Suiza en los últimos cuatro grandes torneos, anotando ocho tantos
+              y dando tres asistencias.
+            </p>
+            <p>
+              ● El seleccionador de Suiza, Murat Yakin, vivirá su primer gran
+              torneo internacional como seleccionador. En sus seis partidos de
+              clasificación tras tomar las riendas de la selección en agosto de
+              2021, su equipo se mantuvo invicto y encajó solo un gol en total.
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Inglaterra -->
+          <div id="Inglaterra" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/INGLATERRAStatus.jpg"
+              alt="Inglaterra"
+              style="width: 100%"
+            />
+            <p>
+              ● Inglaterra ha clasificado a la Copa Mundial de la FIFA por 16ª
+              vez. Es su séptima aparición consecutiva, su racha más larga en la
+              competición.
+            </p>
+            <p>
+              ● Desde que ganó su única Copa Mundial de la FIFA en 1966,
+              Inglaterra ha superado los cuartos de final solo dos veces, en
+              1990 (4ª posición) y 2018 (4ª posición).
+            </p>
+            <p>
+              ● Inglaterra es el único equipo europeo que ha alcanzado las
+              semifinales en cada uno de los dos últimos grandes torneos (Copa
+              del Mundo + Eurocopa).
+            </p>
+            <p>
+              ● Inglaterra logró la mejor diferencia de goles en la fase de
+              grupos de las eliminatorias europeas para la Copa Mundial de la
+              FIFA 2022, anotando 39 goles y recibiendo solo tres (+36).
+            </p>
+            <p>
+              ● El delantero inglés, Harry Kane, fue el máximo goleador de la
+              Copa Mundial de la FIFA 2018, marcando cinco de sus seis goles en
+              la fase de grupos. Ningún jugador ha logrado nunca ser el máximo
+              goleador o el máximo goleador conjunto en dos Mundiales
+              diferentes.
+            </p>
+            <p>
+              ● Gareth Southgate ha llevado a Inglaterra a los cuartos de final
+              en cada uno de sus dos torneos como seleccionador nacional. Solo
+              Sir Alf Ramsey puede presumir de un récord similar al del técnico
+              de Inglaterra (campeón de la Copa del Mundo en 1966, semifinalista
+              de la Eurocopa en 1968).
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Francia -->
+          <div id="Francia" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/FRANCIAStatus.jpg"
+              alt="Francia"
+              style="width: 100%"
+            />
+            <p>
+              ● Francia ha clasificado a su 16ª Copa Mundial de la FIFA. Es su
+              séptima aparición consecutiva, su racha consecutiva más larga de
+              participaciones.
+            </p>
+            <p>
+              ● Francia ha ganado la Copa Mundial de la FIFA en dos ocasiones,
+              en 1998 y 2018. Sin embargo, ningún equipo ha ganado torneos
+              consecutivos desde Brasil en 1958 y 1962.
+            </p>
+            <p>
+              ● Desde 1998, Francia ha llegado a la final de la Copa Mundial de
+              la FIFA en tres de las seis ediciones (1998, 2006 y 2018), más que
+              cualquier otro equipo en este período.
+            </p>
+            <p>
+              ● Los vigentes campeones del mundo han ganado su primer partido en
+              solo tres de las últimas 12 ediciones de la Copa Mundial de la
+              FIFA (4E 5D): Alemania en 1994 y Brasil en 1998 y 2006.
+            </p>
+            <p>
+              ● Desde el inicio de la Copa Mundial de la FIFA 2014, Cristiano
+              Ronaldo es el único jugador europeo que ha marcado y asistido más
+              goles (17 en 18 partidos) que Antoine Griezmann (15 en 23
+              partidos) en los principales torneos internacionales (Copas del
+              Mundo y Eurocopas).
+            </p>
+            <p>
+              ● Este es el quinto gran torneo consecutivo de Didier Deschamps
+              como seleccionador de Francia, un récord para la nación. Es parte
+              de un grupo de tres que han ganado la Copa del Mundo tanto como
+              jugador como entrenador tras Mário Zagallo y Franz Beckenbauer;
+              capitaneó a Francia a la victoria en 1998, jugando en seis de los
+              siete encuentros de su equipo, antes de levantar el trofeo como
+              entrenador en 2018.
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Bélgica -->
+          <div id="Bélgica" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/BELGICAStatus.jpg"
+              alt="Bélgica"
+              style="width: 100%"
+            />
+            <p>
+              ● Ningún equipo europeo ha clasificado a tantos torneos de la Copa
+              Mundial de la FIFA como Bélgica sin ganarlo. Esta es su aparición
+              número 14.
+            </p>
+            <p>
+              ● Bélgica es uno de los tres equipos, junto con Brasil y Francia,
+              en alcanzar los cuartos de final en los dos últimos torneos de la
+              Copa Mundial de la FIFA.
+            </p>
+            <p>
+              ● Desde que perdió su último partido de la fase de grupos en 1994
+              (0-1 contra Arabia Saudí), Bélgica ha resultado invicta en los 12
+              partidos de la fase de grupos de la Copa Mundial de la FIFA. Ha
+              ganado cada uno de sus últimos siete encuentros de este tipo en la
+              competición, y solo Brasil ha ganado ocho seguidos de la fase de
+              grupos del Mundial (dos veces, de 1986 a 1994 y de 2002 a 2010).
+            </p>
+            <p>
+              ● Kevin De Bruyne y Eden Hazard han asistido colectivamente al 45
+              % de los goles de Bélgica en los principales torneos
+              internacionales desde la Copa del Mundo de 2014 (18 de 40).
+              También son los máximos asistentes en este tipo de competiciones
+              entre los jugadores europeos durante ese período (9 asistencias
+              cada uno).
+            </p>
+            <p>
+              ● Desde el primer Mundial de Romelu Lukaku en 2014, Cristiano
+              Ronaldo (13) es el único jugador europeo que ha marcado más goles
+              que el delantero belga (11) en grandes torneos internacionales.
+            </p>
+            <p>
+              ● Roberto Martínez será el tercer entrenador en hacerse cargo de
+              Bélgica en más de un torneo de la Copa Mundial de la FIFA, tras
+              Hector Goetnik (1930 y 1934) y Guy Thys (1982, 1986 y 1990).
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Croacia -->
+          <div id="Croacia" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/CROACIAStatus.jpg"
+              alt="Croacia"
+              style="width: 100%"
+            />
+            <p>
+              ● Esta es la sexta participación de Croacia en la Copa Mundial de
+              la FIFA. En los cinco anteriores, cayó eliminada en la fase de
+              grupos (3 veces) o al menos llegó a semifinales (dos veces,
+              incluida la final de 2018).
+            </p>
+            <p>
+              ● Croacia ha perdido su primer partido en tres de sus cinco
+              apariciones en la Copa Mundial, con las excepciones de 1998 (llegó
+              a semifinales) y 2018 (llegó a la final).
+            </p>
+            <p>
+              ● Solo Dinamarca (8) dejó más veces su portería a cero en la fase
+              de grupos de las eliminatorias para la Copa del Mundo de Europa
+              2022 que Croacia (7), que encajó solo cuatro goles en sus 10
+              partidos de grupo (7V 2E 1D).
+            </p>
+            <p>
+              ● Luka Modric ha disputado más torneos internacionales importantes
+              que cualquier otro jugador croata (25). Al llegar a esta edición,
+              ningún jugador ha disputado tanto la Copa Mundial de la FIFA como
+              la Eurocopa en tres décadas diferentes, algo que Modric podría
+              lograr en Catar.
+            </p>
+            <p>
+              ● Ivan Perišić ha participado en más goles que cualquier otro
+              jugador de Croacia en la historia en grandes torneos (9 goles y 5
+              asistencias en la Copa del Mundo + Euro). De hecho, es uno de los
+              dos únicos jugadores europeos que ha marcado y/o asistido un gol
+              en cada uno de los últimos cinco grandes torneos internacionales;
+              el otro es Cristiano Ronaldo.
+            </p>
+            <p>
+              ● Zlatko Dalić es el primer entrenador en dirigir a Croacia a tres
+              grandes torneos internacionales (Mundial 2018, Euro 2020 y Mundial
+              2022).
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Serbia -->
+          <div id="Serbia" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/SERBIAStatus.jpg"
+              alt="Serbia"
+              style="width: 100%"
+            />
+            <p>
+              ● Incluyendo 2022, Serbia ha clasificado a cuatro de los últimos
+              cinco torneos de la Copa del Mundo, fallando solo en 2014 en este
+              tiempo. Sin embargo, desde el primer torneo de este período en
+              2006, han perdido siete de nueve partidos de la Copa del Mundo
+              (2V), la cifra más alta de derrotas de cualquier nación europea en
+              este tiempo, y solo Australia (8) ha perdido más entre todas las
+              selecciones.
+            </p>
+            <p>
+              ● Como nación independiente, Serbia ha sido eliminada de la fase
+              de grupos en cada una de sus tres apariciones en finales de la
+              Copa Mundial (2006, 2010, 2018). La última vez que llegaron a las
+              rondas eliminatorias fue en 1998, como Yugoslavia.
+            </p>
+            <p>
+              ● Serbia no perdió ninguno de sus ocho partidos de clasificación
+              en el grupo de clasificación para la Copa del Mundo (6V 2E), la
+              primera vez que permanece invicto en un grupo de clasificación
+              para un gran torneo (Copa del Mundo/Eurocopa) desde que clasificó
+              para la Copa del Mundo de 2006 (10P 6V D4 L0).
+            </p>
+            <p>
+              ● Solo Memphis Depay y Harry Kane (12 goles) marcaron más goles
+              que el serbio Aleksandar Mitrovic (8 en 8 partidos) en la ronda
+              principal de las eliminatorias europeas para la Copa del Mundo de
+              2022, excluyendo los play-offs. Mientras, ningún jugador dio más
+              asistencias que su compatriota Dusan Tadic (6 en 8 encuentros).
+            </p>
+            <p>
+              ● Como nación independiente, ningún jugador ha anotado nunca más
+              de un gol para Serbia en la Copa del Mundo, seis jugadores han
+              marcado uno cada uno; su último gol en el torneo lo anotó
+              Aleksandar Mitrovic en 2018 contra Suiza, y solo tres jugadores
+              hicieron más remates en la fase de grupos de 2018 que Mitrovic
+              (14): Neymar (16), Toni Kroos (15) y Cristiano Ronaldo (15).
+            </p>
+            <p>
+              ● El seleccionador de Serbia, Dragan Stojkovic, es el que ha
+              disputado más partidos como jugador con el país en las fases
+              finales de la Copa Mundial de la FIFA (incluida Yugoslavia),
+              jugando nueve encuentros en las ediciones de 1990 y 1998 y
+              anotando tres goles. Stojkovic sigue siendo el último jugador de
+              Serbia/Yugoslavia en anotar más de un gol en un partido de la Copa
+              del Mundo, logrando un doblete en los octavos de final contra
+              España en 1990.
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Países Bajos -->
+          <div id="PaísesBajos" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/PAISESBAJOSStatus.jpg"
+              alt="Países Bajos"
+              style="width: 100%"
+            />
+            <p>
+              ● Esta es la 11ª participación de Países Bajos en un Mundial, la
+              primera desde 2014. Ningún equipo ha sido subcampeón tantas veces
+              como ellos sin ganar nunca el trofeo (3; 1974, 1978 y 2010).
+            </p>
+            <p>
+              ● Países Bajos ha ganado 11 de sus últimos 14 partidos en la Copa
+              del Mundo, excluidas tandas de penaltis (2E 1D). Su única derrota
+              en ese lapso es la final de 2010 contra España (0-1 en la
+              prórroga). Su última derrota en un partido de fase de grupos fue
+              en 1994 ante Bélgica (0-1).
+            </p>
+            <p>
+              ● Países Bajos nunca ha perdido su primer partido de la fase de
+              grupos en la Copa Mundial de la FIFA (6V 2E). Tienen el mejor
+              registro invicto en los partidos iniciales de la fase de grupos
+              que cualquier otro equipo en la historia de la competición (8,
+              excluyendo la segunda fase de grupos).
+            </p>
+            <p>
+              ● Memphis Depay participó en más goles que cualquier otro jugador
+              en las eliminatorias europeas para la Copa Mundial de la FIFA 2022
+              (excluyendo play-offs), anotando 12 y asistiendo a otros seis (18
+              goles + asistencias en 10 partidos).
+            </p>
+            <p>
+              ● Frenkie de Jong, de Países Bajos, avanzó llevando el balón un
+              promedio de 210 metros por partido durante las eliminatorias para
+              la Copa Mundial de Europa, la cifra más alta para cualquier
+              centrocampista con más de cinco apariciones (sin incluir los
+              play-offs).
+            </p>
+            <p>
+              ● Esta es la tercera etapa de Louis van Gaal como entrenador de
+              selección de Países Bajos. Los llevó a un tercer puesto en su
+              única participación previa en la Copa Mundial de la FIFA.
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Polonia -->
+          <div id="Polonia" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/POLONIAStatus.jpg"
+              alt="Polonia"
+              style="width: 100%"
+            />
+            <p>
+              ● Polonia ha clasificado a su novena Copa Mundial de la FIFA y
+              participará en la competición por cuarta vez en las últimas seis
+              ediciones (2022, 2018, 2006 y 2002).
+            </p>
+            <p>
+              ● Polonia solo ha ganado uno de sus ocho primeros partidos
+              anteriores de la Copa Mundial de la FIFA (3E 4D), un triunfo 3-2
+              vs Argentina en 1974 con Grzegorz Lato anotando un doblete.
+              Polonia no ha ganado en sus últimos seis partidos de este tipo (3E
+              3D), perdiendo los últimos tres.
+            </p>
+            <p>
+              ● Polonia anotó 32 goles en la fase de clasificación (incluidos
+              los play-offs); solo Inglaterra (39), Alemania (36) y Países Bajos
+              (33) anotaron más entre los equipos europeos en la clasificación
+              de FIFA 2022.
+            </p>
+            <p>
+              ● Polonia anotó 32 goles en la fase de clasificación (incluidos
+              los play-offs); solo Inglaterra (39), Alemania (36) y Holanda (33)
+              anotaron más entre los equipos europeos en la clasificación de
+              FIFA 2022.
+            </p>
+            <p>
+              ● Robert Lewandowski participó en 13 goles en la clasificación
+              para la Copa Mundial de la FIFA 2022 (9 goles y 4 asistencias),
+              más del doble que cualquier otro jugador de Polonia.
+            </p>
+            <p>
+              ● Czesław Michniewicz será el octavo técnico diferente que se haga
+              cargo de Polonia en la Copa Mundial de la FIFA, siendo Antoni
+              Piechniczek el único que les ha dirigido en dos ediciones
+              diferentes (1982 y 1986).
+            </p>
+          </div>
 
-        <!-- Grid -->
-        <div class="w3-row">
-            <!-- Blog entry -->
-            <div class="w3-card-4 w3-margin w3-white">
-                <img src="/catarImg/UEFA.jpg" alt="" style="width:100%">
-                <hr>
-                <!-- Alemania -->
-                <div id="Alemania" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/ALEMANIAStatus.jpg" alt="Alemania" style="width:100%">
-                    <p>● Alemania ha ganado la Copa Mundial de la FIFA cuatro veces; ninguna nación europea lo ha hecho
-                        más (Italia también cuatro). Entre todas las naciones, solo Brasil ha levantado el trofeo en más
-                        ocasiones (5).</p>
-                    <p>● Ésta será la 20ª participación de Alemania en la Copa Mundial de la FIFA, convirtiéndose en el
-                        segundo equipo, después de Brasil, en alcanzar las 20 presencias en el torneo. La última vez que
-                        no participó en una edición de la Copa del Mundo fue en 1950; desde entonces, ha superado la
-                        primera ronda en todas las ediciones, excepto en 2018, cuando terminó último de su grupo.</p>
-                    <p>● Alemania ha llegado a las semifinales en cuatro de sus cinco participaciones en la Copa Mundial
-                        este siglo, con la única excepción de 2018, más que cualquier otra nación en este período.</p>
-                    <p>● A excepción de los anfitriones, Catar, Alemania fue el primer equipo en clasificarse para la
-                        Copa Mundial de la FIFA 2022, y lo hizo el 11 de octubre de 2021. Alemania ganó nueve de sus 10
-                        partidos en la fase clasificación (1D), y solo Inglaterra (39) anotó más goles que los alemanes
-                        (36, excluyendo play-offs).</p>
-                    <p>● Thomas Müller ha marcado 10 goles y dado seis asistencias en 16 partidos en la Copa Mundial de
-                        la FIFA, la cifra más alta de cualquier jugador desde su primera aparición en 2010. Solo
-                        Miroslav Klose (16), Gerd Müller (14) y Jürgen Klinsmann (11) han anotado más goles para
-                        Alemania en la fase final que Müller, mientras que desde 1966, solo Pierre Littbarski (7) ha
-                        dado más asistencias para la nación.</p>
-                    <p>● Éste será el primer gran torneo de Hansi Flick como entrenador de Alemania. Jupp Derwall es el
-                        último entrenador en ganar un gran torneo con Alemania en su primer intento (EURO 1980).</p>
-                </div>
-                <div class="w3-container">
-                </div>
-                <br>
-                <hr>
-                <!-- Dinamarca -->
-                <div id="Dinamarca" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/DINAMARCAStatus.jpg" alt="Dinamarca" style="width:100%">
-                    <p>● Esta será la sexta participación de Dinamarca en la Copa Mundial de la FIFA. Es la segunda vez
-                        que se clasifica para torneos consecutivos, después de 1998/2002.</p>
-                    <p>● Dinamarca superó la fase de grupos en cuatro de sus cinco participaciones anteriores en la Copa
-                        del Mundo, pero nunca llegó más allá de cuartos de final (1998).</p>
-                    <p>● Dinamarca ha ganado nueve de sus 10 partidos en la clasificación para la Copa del Mundo,
-                        perdiendo solo contra Escocia. Dinamarca dejó más veces su portería a cero en la fase de grupos
-                        de la clasificación europea que cualquier otro equipo (8).</p>
-                    <p>● Ningún jugador anotó más goles para Dinamarca en la clasificación para la Copa Mundial 2022 que
-                        Joakim Maehle (5, igualado con Andreas Skov Olsen), mientras que ningún jugador participó en más
-                        goles para la nación durante su último gran torneo (EURO 2020) que Maehle (3 - 2 goles, 1
-                        asistencia).</p>
-                    <p>● Yussuf Poulsen marcó un gol en la Copa del Mundo de 2018 y dos en la EURO 2020. Podría
-                        convertirse en el tercer jugador danés en marcar en tres grandes torneos diferentes, tras
-                        Michael Laudrup (Copa del Mundo de 1986, EURO de 1988 y Copa del Mundo de 1998) y Jon Dahl
-                        Tomasson (Mundial 2002, EURO 2004 y Mundial 2010).</p>
-                    <p>● Éste será el segundo gran torneo consecutivo de Kasper Hjulmand como seleccionador de
-                        Dinamarca. Llevó a los daneses a las semifinales de la Eurocopa 2020, su mejor actuación en un
-                        torneo importante desde que ganó la EURO 1992.</p>
-                </div>
-                <br>
-                <hr>
-                <!-- España -->
-                <div id="España" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/ESPANAStatus.jpg" alt="España" style="width:100%">
-                    <p>● España se ha clasificado para su 16ª edición de la Copa del Mundo de la FIFA y la 12ª de manera
-                        consecutiva, su mayor racha de participaciones seguidas en la historia del torneo.</p>
-                    <p>● España ganó la Copa del Mundo en 2010. La de Sudáfrica es la única vez que el combinado español
-                        ha llegado a semifinales en sus últimas 13 participaciones. No obstante, España ha quedado
-                        primera de grupo en cuatro de sus últimas cinco participaciones mundialistas.</p>
-                    <p>● El próximo gol de España en la Copa del Mundo de la FIFA será su número 100 en el torneo. José
-                        Iraragorri marcó el primero en 1934, en una victoria por 3-1 en octavos de final contra Brasil.
-                    </p>
-                    <p>● Durante la fase de grupos de la clasificación europea para la Copa del Mundo de 2022, la media
-                        de posesión de España fue del 76%, la más alta de cualquier otra selección. Además, fue la
-                        selección que menos remates recibió en la fase europea (38 en 8 partidos, igual que Inglaterra).
-                    </p>
-                    <p>● Ferran Torres marcó cuatro goles en la fase de clasificación para el Mundial de 2022, al menos
-                        el doble que cualquier otro jugador de España, y además intentó más remates que cualquiera de
-                        sus compañeros (19). Con 22 años, puede convertirse en el goleador más joven de España en un
-                        Mundial desde que Fernando Torres marcara tres goles en 2006, también con 22 años.</p>
-                    <p>● Luis Enrique ha disputado 12 partidos en la Copa del Mundo como jugador de España entre 1994,
-                        1998 y 2002, anotando dos goles. Este es su segundo gran torneo (Mundial y Eurocopa) como
-                        seleccionador de España tras la Euro 2020, en la que llevó a su equipo a las semifinales y
-                        registrando la mayor cantidad de goles en el torneo (13, los mismos que los ganadores - Italia).
-                    </p>
-                </div>
-                <br>
-                <hr>
-                <!-- Suiza -->
-                <div id="Suiza" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/SUIZAStatus.jpg" alt="Suiza" style="width:100%">
-                    <p>● Suiza se ha clasificado para su 12ª Copa Mundial de la FIFA y terminó primera de grupo por
-                        delante de la vigente campeona de la Eurocopa, Italia. Es su 5ª presencia consecutiva,
-                        estableciendo su racha más larga de apariciones consecutivas en el torneo.</p>
-                    <p>● Suiza alcanzó por última vez los cuartos de final de la Copa Mundial de la FIFA en 1954, cuando
-                        el torneo se jugó en su país. Desde entonces, nunca han pasado de la segunda ronda.</p>
-                    <p>● Suiza es parte de un grupo de solo tres equipos europeos (Bélgica y Francia son los otros) que
-                        han alcanzado las fases eliminatorias en cada uno de los últimos cuatro torneos internacionales
-                        importantes (Mundial + Eurocopa).</p>
-                    <p>● Suiza encabezó su grupo solo una vez anteriormente en la Copa Mundial de la FIFA, y lo hizo en
-                        2006. Ese fue el año en que se convirtió en el único equipo hasta la fecha que no encajó un solo
-                        gol en una Copa Mundial (4 partidos, 0 goles encajados).</p>
-                    <p>● Xherdan Shaqiri ha participado en el 48% de los 23 goles de Suiza en los últimos cuatro grandes
-                        torneos, anotando ocho tantos y dando tres asistencias.</p>
-                    <p>● El seleccionador de Suiza, Murat Yakin, vivirá su primer gran torneo internacional como
-                        seleccionador. En sus seis partidos de clasificación tras tomar las riendas de la selección en
-                        agosto de 2021, su equipo se mantuvo invicto y encajó solo un gol en total en ellos.</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Inglaterra -->
-                <div id="Inglaterra" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/INGLATERRAStatus.jpg" alt="Inglaterra" style="width:100%">
-                    <p>● Inglaterra se ha clasificado para la Copa Mundial de la FIFA por 16ª vez. Es su séptima
-                        aparición consecutiva, su racha más larga en la competición.</p>
-                    <p>● Desde que ganó su única Copa Mundial de la FIFA en 1966, Inglaterra ha superado los cuartos de
-                        final solo dos veces, en 1990 (4ª posición) y 2018 (4ª posición).</p>
-                    <p>● Inglaterra es el único equipo europeo que ha alcanzado las semifinales en cada uno de los dos
-                        últimos grandes torneos (Copa del Mundo + Eurocopa).</p>
-                    <p>● Inglaterra logró la mejor diferencia de goles en la fase de grupos de las eliminatorias
-                        europeas para la Copa Mundial de la FIFA 2022, anotando 39 goles y recibiendo solo tres (+36).
-                    </p>
-                    <p>● El delantero inglés, Harry Kane, fue el máximo goleador de la Copa Mundial de la FIFA 2018,
-                        marcando cinco de sus seis goles en la fase de grupos. Ningún jugador ha logrado nunca ser el
-                        máximo goleador o el máximo goleador conjunto en dos Mundiales diferentes.</p>
-                    <p>● Gareth Southgate ha llevado a Inglaterra a los cuartos de final en cada uno de sus dos torneos
-                        como seleccionador nacional. Solo Sir Alf Ramsey puede presumir de un récord similar al del
-                        técnico de Inglaterra (campeón de la Copa del Mundo en 1966, semifinalista de la Eurocopa en
-                        1968).</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Francia -->
-                <div id="Francia" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/FRANCIAStatus.jpg" alt="Francia" style="width:100%">
-                    <p>● Francia se ha clasificado para su 16ª Copa Mundial de la FIFA. Es su séptima aparición
-                        consecutiva, su racha consecutiva más larga de participaciones.</p>
-                    <p>● Francia ha ganado la Copa Mundial de la FIFA en dos ocasiones, en 1998 y 2018. Sin embargo,
-                        ningún equipo ha ganado torneos consecutivos desde Brasil en 1958 y 1962.</p>
-                    <p>● Desde 1998, Francia ha llegado a la final de la Copa Mundial de la FIFA en tres de las seis
-                        ediciones (1998, 2006, 2018), más que cualquier otro equipo en este período.</p>
-                    <p>● Los vigentes campeones del mundo han ganado su primer partido en solo tres de las últimas 12
-                        ediciones de la Copa Mundial de la FIFA (4E 5D): Alemania en 1994 y Brasil en 1998 y 2006.</p>
-                    <p>● Desde el inicio de la Copa Mundial de la FIFA 2014, Cristiano Ronaldo es el único jugador
-                        europeo que ha marcado y asistido más goles (17 en 18 partidos) que Antoine Griezmann (15 en 23
-                        partidos) en los principales torneos internacionales (Copas del Mundo y Eurocopas).</p>
-                    <p>● Este es el quinto gran torneo consecutivo de Didier Deschamps como seleccionador de Francia, un
-                        récord para la nación. Es parte de un grupo de tres que han ganado la Copa del Mundo tanto como
-                        jugador como entrenador tras Mário Zagallo y Franz Beckenbauer - capitaneó a Francia a la
-                        victoria en 1998, jugando en seis de los siete encuentros de su equipo, antes de levantar el
-                        trofeo como entrenador en 2018.</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Bélgica -->
-                <div id="Bélgica" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/BELGICAStatus.jpg" alt="Bélgica" style="width:100%">
-                    <p>● Ningún equipo europeo se ha clasificado para tantos torneos de la Copa Mundial de la FIFA como
-                        Bélgica sin ganarlo. Esta es su aparición número 14.</p>
-                    <p>● Bélgica es uno de los tres equipos, junto con Brasil y Francia, en alcanzar los cuartos de
-                        final en los dos últimos torneos de la Copa Mundial de la FIFA.</p>
-                    <p>● Desde que perdió su último partido de la fase de grupos en 1994 (0-1 contra Arabia Saudí),
-                        Bélgica está invicta en los 12 partidos de la fase de grupos de la Copa Mundial de la FIFA. Ha
-                        ganado cada uno de sus últimos siete encuentros de este tipo en la competición, y solo Brasil ha
-                        ganado ocho seguidos de la fase de grupos del Mundial (dos veces, de 1986 a 1994 y de 2002 a
-                        2010).</p>
-                    <p>● Kevin De Bruyne y Eden Hazard han asistido colectivamente al 45 % de los goles de Bélgica en
-                        los principales torneos internacionales desde la Copa del Mundo de 2014 (18 de 40). También son
-                        los máximos asistentes en este tipo de competiciones entre los jugadores europeos durante ese
-                        período (9 asistencias cada uno).</p>
-                    <p>● Desde el primer Mundial de Romelu Lukaku en 2014, Cristiano Ronaldo (13) es el único jugador
-                        europeo que ha marcado más goles que el delantero belga (11) en grandes torneos internacionales.
-                    </p>
-                    <p>● Roberto Martínez será el tercer entrenador en hacerse cargo de Bélgica en más de un torneo de
-                        la Copa Mundial de la FIFA, tras Hector Goetnik (1930 y 1934) y Guy Thys (1982, 1986 y 1990).
-                    </p>
-                </div>
-                <br>
-                <hr>
-                <!-- Croacia -->
-                <div id="Croacia" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/CROACIAStatus.jpg" alt="Croacia" style="width:100%">
-                    <p>● Esta es la sexta participación de Croacia en la Copa Mundial de la FIFA. En los cinco
-                        anteriores, cayó eliminada en la fase de grupos (3 veces) o al menos llegó a semifinales (dos
-                        veces, incluida la final de 2018).</p>
-                    <p>● Croacia ha perdido su primer partido en tres de sus cinco apariciones en la Copa Mundial, con
-                        las excepciones de 1998 (llegó a semifinales) y 2018 (llegó a la final).</p>
-                    <p>● Solo Dinamarca (8) dejó más veces su portería a cero en la fase de grupos de las eliminatorias
-                        para la Copa del Mundo de Europa 2022 que Croacia (7), que encajó solo cuatro goles en sus 10
-                        partidos de grupo (7V 2E 1D).</p>
-                    <p>● Luka Modric ha disputado más torneos internacionales importantes que cualquier otro jugador
-                        croata (25). Al llegar a esta edición, ningún jugador ha disputado tanto la Copa Mundial de la
-                        FIFA como en la Eurocopa en tres décadas diferentes, algo que Modric podría lograr en Catar.</p>
-                    <p>● Ivan Perišić ha participado en más goles que cualquier otro jugador de Croacia en la historia
-                        en grandes torneos (9 goles + 5 asistencias en la Copa del Mundo + Euro). De hecho, es uno de
-                        los dos únicos jugadores europeos que ha marcado y/o asistido un gol en cada uno de los últimos
-                        cinco grandes torneos internacionales; el otro es Cristiano Ronaldo.</p>
-                    <p>● Zlatko Dalić es el primer entrenador en dirigir a Croacia a tres grandes torneos
-                        internacionales (Mundial 2018, Euro 2020, Mundial 2022).</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Serbia -->
-                <div id="Serbia" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/SERBIAStatus.jpg" alt="Serbia" style="width:100%">
-                    <p>● Incluyendo 2022, Serbia se ha clasificado para cuatro de los últimos cinco torneos de la Copa
-                        del Mundo, fallando solo en 2014 en este tiempo. Sin embargo, desde el primer torneo de este
-                        período en 2006, han perdido siete de nueve partidos de la Copa del Mundo (2V), la cifra más
-                        alta de derrotas de cualquier nación europea en este tiempo, y solo Australia (8) ha perdido más
-                        entre todas las selecciones.</p>
-                    <p>● Como nación independiente, Serbia ha sido eliminada de la fase de grupos en cada una de sus
-                        tres apariciones en finales de la Copa Mundial (2006, 2010, 2018). La última vez que llegaron a
-                        las rondas eliminatorias fue en 1998, como Yugoslavia.</p>
-                    <p>● Serbia no perdió ninguno de sus ocho partidos de clasificación en el grupo de clasificación
-                        para la Copa del Mundo (6V 2E), la primera vez que permanece invicto en un grupo de
-                        clasificación para un gran torneo (Copa del Mundo/Eurocopa) desde que se clasificó para la Copa
-                        del Mundo de 2006 (10P 6V D4 L0).</p>
-                    <p>● Solo Memphis Depay y Harry Kane (12 goles) marcaron más goles que el serbio Aleksandar Mitrovic
-                        (8 en 8 partidos) en la ronda principal de las eliminatorias europeas para la Copa del Mundo de
-                        2022, excluyendo los play-offs. Mientras, ningún jugador dio más asistencias que su compatriota
-                        Dusan Tadic (6 en 8 encuentros).</p>
-                    <p>● Como nación independiente, ningún jugador ha anotado nunca más de un gol para Serbia en la Copa
-                        del Mundo, seis jugadores han marcado uno cada uno; su último gol en el torneo lo anotó
-                        Aleksandar Mitrovic en 2018 contra Suiza, y solo tres jugadores hicieron más remates en la fase
-                        de grupos de 2018 que Mitrovic (14): Neymar (16), Toni Kroos (15) y Cristiano Ronaldo (15).</p>
-                    <p>● El seleccionador de Serbia, Dragan Stojkovic, es el que ha disputado más partidos como jugador
-                        con el país en las fases finales de la Copa Mundial de la FIFA (incluida Yugoslavia), jugando
-                        nueve encuentros en las ediciones de 1990 y 1998 y anotando tres goles. Stojkovic sigue siendo
-                        el último jugador de Serbia/Yugoslavia en anotar más de un gol en un partido de la Copa del
-                        Mundo, logrando un doblete en los octavos de final contra España en 1990.</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Países Bajos -->
-                <div id="PaísesBajos" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/PAISESBAJOSStatus.jpg" alt="Países Bajos" style="width:100%">
-                    <p>● Esta es la 11ª participación de Países Bajos en un Mundial, la primera desde 2014. Ningún
-                        equipo ha sido subcampeón tantas veces como ellos sin ganar nunca el trofeo (3; 1974, 1978,
-                        2010).</p>
-                    <p>● Países Bajos ha ganado 11 de sus últimos 14 partidos en la Copa del Mundo, excluidas tandas de
-                        penaltis (2E 1D). Su única derrota en ese lapso es la final de 2010 contra España (0-1 en la
-                        prórroga). Su última derrota en un partido de fase de grupos fue en 1994 ante Bélgica (0-1).</p>
-                    <p>● Países Bajos nunca ha perdido su primer partido de la fase de grupos en la Copa Mundial de la
-                        FIFA (6V 2E). Tienen el mejor registro invicto en los partidos iniciales de la fase de grupos
-                        que cualquier otro equipo en la historia de la competición (8, excluyendo la segunda fase de
-                        grupos).</p>
-                    <p>● Memphis Depay participó en más goles que cualquier otro jugador en las eliminatorias europeas
-                        para la Copa Mundial de la FIFA 2022 (excluyendo play-offs), anotando 12 y asistiendo a otros
-                        seis (18 goles + asistencias en 10 partidos).</p>
-                    <p>● Frenkie de Jong, de Países Bajos, avanzó hacia delante llevando el balón un promedio de 210
-                        metros por partido durante las eliminatorias para la Copa Mundial de Europa, la cifra más alta
-                        para cualquier centrocampista con más de cinco apariciones (sin incluir los play-offs).</p>
-                    <p>● Esta es la tercera etapa de Louis van Gaal como entrenador de selección holandesa. Los llevó a
-                        un tercer puesto en su única participación previa en la Copa Mundial de la FIFA.</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Polonia -->
-                <div id="Polonia" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/POLONIAStatus.jpg" alt="Polonia" style="width:100%">
-                    <p>● Polonia se ha clasificado para su novena Copa Mundial de la FIFA y participará en la
-                        competición por cuarta vez en las últimas seis ediciones (2022, 2018, 2006, 2002).</p>
-                    <p>● Polonia solo ha ganado uno de sus ocho primeros partidos anteriores de la Copa Mundial de la
-                        FIFA (3E 4D), un triunfo 3-2 vs Argentina en 1974 con Grzegorz Lato anotando un doblete. Polonia
-                        no ha ganado en sus últimos seis partidos de este tipo (3E 3D), perdiendo los últimos tres.</p>
-                    <p>● Polonia fue eliminada en la fase de grupos de la Copa Mundial de la FIFA 2018, aunque ganó su
-                        último partido de grupos frente a Japón (1-0); la última vez que ganó encuentros consecutivos de
-                        la Copa Mundial fue en 1982 (frente a Perú y Bélgica).</p>
-                    <p>● Polonia anotó 32 goles en la fase de clasificación (incluidos los play-offs); solo Inglaterra
-                        (39), Alemania (36) y Holanda (33) anotaron más entre los equipos europeos en la clasificación
-                        de FIFA 2022.</p>
-                    <p>● Robert Lewandowski participó en 13 goles en la clasificación para la Copa Mundial de la FIFA
-                        2022 (9 goles, 4 asistencias), más del doble que cualquier otro jugador de Polonia.</p>
-                    <p>● Czesław Michniewicz será el octavo técnico diferente que se haga cargo de Polonia en la Copa
-                        Mundial de la FIFA, siendo Antoni Piechniczek el único que les ha dirigido en dos ediciones
-                        diferentes (1982, 1986).</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Portugal -->
-                <div id="Portugal" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/PORTUGALStatus.jpg" alt="Portugal" style="width:100%">
-                    <p>● Portugal es uno de los cinco equipos europeos que han aparecido en todas las ediciones de la
-                        Copa Mundial de la FIFA desde 2002, junto con Inglaterra, Francia, Alemania y España. Sin
-                        embargo, entre estos cinco equipos, es el que ha jugado la menor cantidad de encuentros en los
-                        torneos en este período (21).</p>
-                    <p>● Portugal ha ganado solo tres de sus últimos 14 partidos de la Copa del Mundo (6E 5D), cada uno
-                        de ellos en la fase de grupos de la competición. Su última victoria en la fase eliminatoria fue
-                        en junio de 2006, cuando llegó a cuartos de final. gracias a una victoria por 1-0 contra Países
-                        Bajos.</p>
-                    <p>● Portugal no ha ganado en sus últimos tres partidos inaugurales de un torneo de la Copa Mundial
-                        de la FIFA (empató en 2010 y 2018, perdió contra Alemania en 2014). Pese a ello, tras haber
-                        superado la fase de grupos de 2018, podría llegar a la fase eliminatoria en dos ediciones
-                        sucesivas del torneo por segunda vez, tras hacerlo en 2006 y 2010.</p>
-                    <p>● Cristiano Ronaldo ha marcado cada uno de sus siete goles en la Copa Mundial de la FIFA en la
-                        fase de grupos; de hecho, ha marcado más goles en la competición (siete) que cualquier jugador
-                        que no haya anotado en la fase eliminatoria (seis apariciones en la fase eliminatoria sin un
-                        gol).</p>
-                    <p>● Cristiano Ronaldo ha marcado en cada uno de los cuatro torneos anteriores de la Copa Mundial de
-                        la FIFA en los que ha participado; el delantero portugués podría convertirse en el único jugador
-                        capaz de marcar en cinco ediciones diferentes de la competición.</p>
-                    <p>● Este será el cuarto gran torneo de Fernando Santos a cargo de Portugal; en cada una de sus tres
-                        anteriores (dos Eurocopas y el Mundial 2018), superó la fase de grupos, aunque fue eliminado en
-                        octavos de final en los dos últimos.</p>
-                </div>
-                <br>
-                <hr>
-                <!-- Gales -->
-                <div id="Gales" class="w3-container">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="/catarImg/GALESStatus.jpg" alt="Gales" style="width:100%">
-                    <p>● Gales se ha clasificado para su segunda Copa Mundial de la FIFA, la primera desde 1958: la
-                        brecha de 64 años entre participaciones es la más grande de cualquier nación en la historia del
-                        torneo.</p>
-                    <p>● En su única participación en la Copa del Mundo, en1958, Gales empató sus tres partidos de la
-                        fase de grupos. Luego venció a Hungría en un partido de desempate, antes de ser eliminada por
-                        Brasil, luego campeón, en cuartos de final: un Pelé de 17 años anotó el único gol del partido.
-                    </p>
-                    <p>● Gales perdió solo uno de sus 10 partidos de clasificación para la Copa Mundial de la FIFA 2022
-                        y finalmente se clasificó tras vencer a Ucrania por 1-0 en la repesca.</p>
-                    <p>● Inglaterra (a quien Gales enfrentará en su tercer y último partido de la fase de grupos en la
-                        Copa del Mundo de 2022) fue la primera nación europea en derrotar a Gales en un gran torneo,
-                        ganando 2-1 en la fase de grupos de la EURO 2016.</p>
-                    <p>● El máximo goleador de todos los tiempos de Gales, Gareth Bale, anotó cinco goles en la
-                        clasificación para el Mundial 2022. Estos cinco goles llegaron en solo dos partidos diferentes,
-                        con un hat-trick en la victoria por 3-2 en Bielorrusia y con dos goles en la victoria por 2-1 en
-                        la semifinal del play-off sobre Austria.</p>
-                    <p>● El seleccionador de Gales, Rob Page, será el Segundo gales en entrenar en un Mundial tras Jimmy
-                        Murphy en 1958 (también con Gales).</p>
-                </div>
-            </div>
-            <!-- END BLOG ENTRIES -->
+          <br />
+          <hr />
+          <!-- Portugal -->
+          <div id="Portugal" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/PORTUGALStatus.jpg"
+              alt="Portugal"
+              style="width: 100%"
+            />
+            <p>
+              ● Portugal es uno de los cinco equipos europeos que han aparecido
+              en todas las ediciones de la Copa Mundial de la FIFA desde 2002,
+              junto con Inglaterra, Francia, Alemania y España. Sin embargo,
+              entre estos cinco equipos, es el que ha jugado la menor cantidad
+              de encuentros en los torneos en este período (21).
+            </p>
+            <p>
+              ● Portugal ha ganado solo tres de sus últimos 14 partidos de la
+              Copa del Mundo (6E 5D), cada uno de ellos en la fase de grupos de
+              la competición. Su última victoria en la fase eliminatoria fue en
+              junio de 2006, cuando llegó a cuartos de final, gracias a una
+              victoria por 1-0 contra Países Bajos.
+            </p>
+            <p>
+              ● Portugal no ha ganado en sus últimos tres partidos inaugurales
+              de un torneo de la Copa Mundial de la FIFA (empató en 2010 y 2018,
+              perdió contra Alemania en 2014). Pese a ello, tras haber superado
+              la fase de grupos de 2018, podría llegar a la fase eliminatoria en
+              dos ediciones sucesivas del torneo por segunda vez, tras hacerlo
+              en 2006 y 2010.
+            </p>
+            <p>
+              ● Cristiano Ronaldo ha marcado cada uno de sus siete goles en la
+              Copa Mundial de la FIFA en la fase de grupos; de hecho, ha marcado
+              más goles en la competición (siete) que cualquier jugador que no
+              haya anotado en la fase eliminatoria (seis apariciones en la fase
+              eliminatoria sin un gol).
+            </p>
+            <p>
+              ● Cristiano Ronaldo ha marcado en cada uno de los cuatro torneos
+              anteriores de la Copa Mundial de la FIFA en los que ha
+              participado; el delantero portugués podría convertirse en el único
+              jugador capaz de marcar en cinco ediciones diferentes de la
+              competición.
+            </p>
+            <p>
+              ● Este será el cuarto gran torneo de Fernando Santos a cargo de
+              Portugal; en cada una de sus tres anteriores (dos Eurocopas y el
+              Mundial 2018), superó la fase de grupos, aunque fue eliminado en
+              octavos de final en los dos últimos.
+            </p>
+          </div>
+          <br />
+          <hr />
+          <!-- Gales -->
+          <div id="Gales" class="w3-container">
+            <br />
+            <br />
+            <br />
+            <img
+              src="/catarImg/GALESStatus.jpg"
+              alt="Gales"
+              style="width: 100%"
+            />
+            <p>
+              ● Gales ha clasificado a su segunda Copa Mundial de la FIFA, la
+              primera desde 1958; la brecha de 64 años entre participaciones es
+              la más grande de cualquier nación en la historia del torneo.
+            </p>
+            <p>
+              ● En su única participación en la Copa del Mundo, en 1958, Gales
+              empató sus tres partidos de la fase de grupos. Luego venció a
+              Hungría en un partido de desempate, antes de ser eliminada por
+              Brasil, luego campeón, en cuartos de final; Pelé de 17 años anotó
+              el único gol del partido.
+            </p>
+            <p>
+              ● Gales perdió solo uno de sus 10 partidos de clasificación para
+              la Copa Mundial de la FIFA 2022 y finalmente clasificó tras vencer
+              a Ucrania por 1-0 en la repesca.
+            </p>
+            <p>
+              ● Inglaterra (a quien Gales enfrentará en su tercer y último
+              partido de la fase de grupos en la Copa del Mundo de 2022) fue la
+              primera nación europea en derrotar a Gales en un gran torneo,
+              ganando 2-1 en la fase de grupos de la Euro 2016.
+            </p>
+            <p>
+              ● El máximo goleador de todos los tiempos de Gales, Gareth Bale,
+              anotó cinco goles en la clasificación para el Mundial 2022. Estos
+              cinco goles llegaron en solo dos partidos diferentes, con un
+              hat-trick en la victoria por 3-2 en Bielorrusia y con dos goles en
+              la victoria por 2-1 en la semifinal del play-off sobre Austria.
+            </p>
+            <p>
+              ● El seleccionador de Gales, Rob Page, será el segundo galés en
+              entrenar en un Mundial tras Jimmy Murphy en 1958 (también con
+              Gales).
+            </p>
+          </div>
         </div>
-        <!-- END GRID -->
+        <!-- END BLOG ENTRIES -->
+      </div>
+      <!-- END GRID -->
     </div>
     <!-- END w3-content -->
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <!-- END Bootstrap JS -->
-
-</body>
-
+  </body>
 </html>
