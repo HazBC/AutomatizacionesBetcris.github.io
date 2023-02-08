@@ -33,19 +33,23 @@ and is wrapped around the whole page content, except for the footer in this exam
       <img src="/SB-imagenes/SB-123.jpg" alt="" style="width: 100%" />
       <!-- Accordion -->
       <div class="accordion" id="accordionExample">
-        <!-- Final -->
+        <!-- Previas de partido -->
         <div class="accordion-item">
-          <div class="d-flex justify-content-center">
+          <div
+            class="d-flex justify-content-center"
+            style="background-color: #aeb1b6"
+          >
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed"
                 type="button"
+                style="background-color: #aeb1b6"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                PREVIAS DEL PARTIDO
+                <strong>PREVIAS DEL PARTIDO</strong>
               </button>
             </h2>
           </div>
@@ -56,6 +60,10 @@ and is wrapped around the whole page content, except for the footer in this exam
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body" style="text-align: justify">
+              <img src="/SB-imagenes/VS.PNG" alt="" style="width: 100%" />
+              <br />
+              <hr />
+              <br />
               <li>
                 El ganador de este juego tendrá más victorias en el State Farm
                 Stadium esta temporada (dos) que los Cardinals, que tuvieron
@@ -155,19 +163,56 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
         <!-- END Final -->
 
-        <!-- Facts jugadores -->
+        <!--Estadisticas -->
         <div class="accordion-item">
-          <div class="d-flex justify-content-center">
+          <div
+            class="d-flex justify-content-center"
+            style="background-color: #aeb1b6"
+          >
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed"
                 type="button"
+                style="background-color: #aeb1b6"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseCero"
+                aria-expanded="true"
+                aria-controls="collapseCero"
+              ><strong>
+                ESTADISTICAS
+              </strong>
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseCero"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingCero"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body" style="text-align: justify">
+              <img src="/SB-imagenes/Stats.PNG" alt="" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+        <!-- END Estadisticas -->
+
+        <!-- Facts jugadores -->
+        <div class="accordion-item">
+          <div
+            class="d-flex justify-content-center"
+            style="background-color: #aeb1b6"
+          >
+            <h2 class="accordion-header"">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                style="background-color: #aeb1b6"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
-              >
-                DATOS DE LOS JUGADORES
+              ><strong>DATOS DE LOS JUGADORES</strong>
               </button>
             </h2>
           </div>
