@@ -1,2 +1,0 @@
-# AutomatizacionesBetcris.github.io
-
