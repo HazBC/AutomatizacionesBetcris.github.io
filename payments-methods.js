@@ -212,3 +212,10 @@ const App = () => {
 };
 
 export default App;
+
+
+ 
+    const rootNode = document.getElementById('payments-methods');
+    const root = ReactDOM.createRoot(rootNode);
+    root.render(React.createElement(payments-methods));
+   
