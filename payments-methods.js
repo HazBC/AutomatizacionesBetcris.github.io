@@ -213,10 +213,10 @@ const App = () => {
 
 export default App;
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("payments-methods"));
 root.render(
   <React.StrictMode>
-    <App />
+    <payments-methods />
   </React.StrictMode>
 );
    
