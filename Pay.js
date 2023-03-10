@@ -79,7 +79,7 @@ const imagesRetiros = [
   },
 ];
 
-const App = () => {
+const Pay = () => {
   const [showDepositos, setShowDepositos] = useState(true);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -211,12 +211,5 @@ const App = () => {
   );
 };
 
-export default App;
-
-const root = ReactDOM.createRoot(document.getElementById("payments-methods"));
-root.render(
-  <React.StrictMode>
-    <payments-methods />
-  </React.StrictMode>
-);
+export default Pay;
    
