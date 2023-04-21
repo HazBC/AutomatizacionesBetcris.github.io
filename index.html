@@ -224,6 +224,16 @@
       ReactDOM.render(React.createElement(Pay), document.getElementById('root'));
     </script>
    
+    <script>
+		document.getElementById("closebtn").addEventListener("click", function() {
+		  localStorage.setItem("campanaCerrada", true);
+		});
+
+		if (!localStorage.getItem("campanaCerrada")) {
+		  // muestra la campana
+		  document.getElementById("campana").style.display = "block";
+		}
+	</script>
     
   </body>
  
