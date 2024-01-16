@@ -29,28 +29,37 @@
   <body>
     <div>
       <h1>AUTOMATIZACIONES</h1>
-      <button id="btn1" onclick="console.log('Button 1 clicked'); webview('Button 1 clicked')" >Payment 1</button>
-      <button id="btn2" onclick="console.log('Button 2 clicked'); webview('Button 2 clicked')" >Payment 2</button>
+      <button id="btn1" onclick="handleButtonClick('Button 1 clicked')">Payment 1</button>
+      <button id="btn2" onclick="handleButtonClick('Button 2 clicked')">Payment 2</button>
     </div>
 
     <!-- LP Script -->
     <script>
-      async function webview(){
-      const urlParams = new URLSearchParams(window.location.search);
-      const botId = urlParams.get('botId');
-      const userId = urlParams.get('userId');
-      const convId = urlParams.get('convId');
-      const msgBuffer = new TextEncoder().encode(convId + " || " + botId); 
-      const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-      const hashArray = Array.from(new Uint8Array(hashBuffer));
-      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-      const response = await fetch("https://lo.bc-intg.liveperson.net/thirdparty-services-0.1/webview", {method: "POST", headers: {"content-type":"application/json", "Authorization":hashHex}, body:JSON.stringify({
-          "botId": botId,
-          "conversationId": convId,
-          "userId": userId,
-          "message": "webview"
-      })});
-      console.log(response);
+      async function webview(message) {
+        const urlParams = new URLSearchParams(window.location.search);
+        const botId = urlParams.get('botId');
+        const userId = urlParams.get('userId');
+        const convId = urlParams.get('convId');
+        const msgBuffer = new TextEncoder().encode(convId + " || " + botId);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        const response = await fetch("https://lo.bc-intg.liveperson.net/thirdparty-services-0.1/webview", {
+          method: "POST",
+          headers: { "content-type": "application/json", "Authorization": hashHex },
+          body: JSON.stringify({
+            "botId": botId,
+            "conversationId": convId,
+            "userId": userId,
+            "message": message
+          })
+        });
+        console.log(response);
+      }
+
+      function handleButtonClick(message) {
+        console.log(message);
+        webview(message);
       }
     </script>
   </body>
